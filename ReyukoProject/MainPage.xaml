@@ -30,6 +30,7 @@
                            Stretch="Uniform"/>
                         <TextBlock Text="{x:Bind DashboardMenuItemName}" Foreground="White"/>
                     </StackPanel>
+                    
                 </NavigationViewItem>
 
                 <NavigationViewItem 
