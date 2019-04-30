@@ -12,23 +12,23 @@ namespace ReyukoProject.Repository
         /// <summary>
         /// Returns all customers. 
         /// </summary>
-        Task<IEnumerable<Customer>> GetAsync();
+        Task<IEnumerable<SalesOrder>> GetAsync();
 
         /// <summary>
         /// Returns all customers with a data field matching the start of the given string. 
         /// </summary>
-        Task<IEnumerable<Customer>> GetAsync(string search);
+        Task<IEnumerable<SalesOrder>> GetAsync(string search);
 
         /// <summary>
         /// Returns the customer with the given id. 
         /// </summary>
-        Task<Customer> GetAsync(Guid id);
+        Task<SalesOrder> GetAsync(Guid id);
 
         /// <summary>
         /// Adds a new customer if the customer does not exist, updates the 
         /// existing customer otherwise.
         /// </summary>
-        Task<Customer> UpsertAsync(Customer customer);
+        Task<SalesOrder> UpsertAsync(SalesOrder customer);
 
         /// <summary>
         /// Deletes a customer.

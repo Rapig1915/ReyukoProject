@@ -10,6 +10,7 @@
     xmlns:vm="using:ReyukoProject.Model.ViewModels"
     xmlns:stateTriggers="using:ReyukoProject.StateTriggers"
     xmlns:uc="using:ReyukoProject.UserControls"
+    xmlns:helper="using:ReyukoProject.Helpers"
     xmlns:sys="using:System"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -45,34 +46,97 @@
             -->
             <CommandBar
                 x:Name="mainCommandBar"
-                HorizontalAlignment="Stretch"
                 Background="Transparent"
+                DefaultLabelPosition="Right"
                 Loaded="CommandBar_Loaded"
                 RelativePanel.LeftOf="CustomerSearchBox"
-                RelativePanel.RightOf="PageTitle">
-                <AppBarButton
-                    Click="ViewDetails_Click"
-                    Icon="Contact"
-                    IsEnabled="{x:Bind vm:Converters.IsNotNull(ViewModel.SelectedCustomer), Mode=OneWay}"
-                    Label="View details"
-                    ToolTipService.ToolTip="View details" />
+                RelativePanel.RightOf="PageTitle" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Stretch">
                 <AppBarButton
                     Click="AddOrder_Click"
-                    Icon="Shop"
                     IsEnabled="{x:Bind vm:Converters.IsNotNull(ViewModel.SelectedCustomer), Mode=OneWay}"
-                    Label="Add order"
-                    ToolTipService.ToolTip="Add order" />
-                <AppBarSeparator />
-                <AppBarButton
-                    Click="CreateCustomer_Click"
-                    Icon="Add"
                     Label="New"
-                    ToolTipService.ToolTip="New customer" />
+                    ToolTipService.ToolTip="Add order" >
+                    <AppBarButton.Icon>
+                        <BitmapIcon Foreground="#FF2170b6" UriSource="/Assets/Icons/new.png"/>
+                    </AppBarButton.Icon>
+                    <Button.Flyout>
+                        <MenuFlyout>
+                            <MenuFlyoutItem Text ="New Sales Quotation">
+                                <MenuFlyoutItem.Template>
+                                    <ControlTemplate TargetType="MenuFlyoutItem">
+                                        <StackPanel Margin="12,10,0,0" Orientation="Horizontal" Spacing="5">
+                                            <TextBlock Text="{TemplateBinding Text}" Margin="0,0, 20,0"/>
+                                        </StackPanel>
+                                    </ControlTemplate>
+                                </MenuFlyoutItem.Template>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutSeparator/>
+                            <MenuFlyoutItem Text ="New Sales Order">
+                                <MenuFlyoutItem.Template>
+                                    <ControlTemplate TargetType="MenuFlyoutItem">
+                                        <StackPanel Margin="12,10,0,0" Orientation="Horizontal" Spacing="5">
+                                            <TextBlock Text="{TemplateBinding Text}" Margin="0,0, 20,0"/>
+                                        </StackPanel>
+                                    </ControlTemplate>
+                                </MenuFlyoutItem.Template>
+                            </MenuFlyoutItem>
+
+                        </MenuFlyout>
+                    </Button.Flyout>
+                </AppBarButton>
+
+                <AppBarButton
+                    Click="ViewDetails_Click"
+                    IsEnabled="{x:Bind vm:Converters.IsNotNull(ViewModel.SelectedCustomer), Mode=OneWay}"
+                    Label="Detail"
+                    ToolTipService.ToolTip="View details" >
+                    <AppBarButton.Icon>
+                        <BitmapIcon Foreground="#FF2170b6" UriSource="/Assets/Icons/detail.png"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                
+                <AppBarButton
+                    Click="PrintOrder_Click"
+                    Label="Print"
+                    ToolTipService.ToolTip="Print Order Info" >
+                    <AppBarButton.Icon>
+                        <BitmapIcon Foreground="#FF2170b6" UriSource="/Assets/Icons/print.png"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+
                 <AppBarButton
                     Click="{x:Bind ViewModel.Sync}"
-                    Icon="Refresh"
-                    Label="Sync"
-                    ToolTipService.ToolTip="Sync with server" />
+                    Label="Refresh"
+                    ToolTipService.ToolTip="Print Order Info" >
+                    <AppBarButton.Icon>
+                        <BitmapIcon Foreground="#FF2170b6" UriSource="/Assets/Icons/refresh.png"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+
+                <AppBarButton
+                    Label="View as Chart"
+                    ToolTipService.ToolTip="view as chart" >
+                    <AppBarButton.Icon>
+                        <BitmapIcon Foreground="#FF2170b6" UriSource="/Assets/Icons/view_as_chart.png"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+
+                <AppBarButton
+                    Label="View Unposted"
+                    ToolTipService.ToolTip="View Unposted" >
+                    <AppBarButton.Icon>
+                        <BitmapIcon Foreground="#FF2170b6" UriSource="/Assets/Icons/posted.png"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+
+                <AppBarButton
+                    Label="Play Tutorial"
+                    ToolTipService.ToolTip="Play tutorial" >
+                    <AppBarButton.Icon>
+                        <BitmapIcon Foreground="#FF2170b6" UriSource="/Assets/Icons/tutorial.png"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                
             </CommandBar>
 
             <uc:CollapsibleSearchBox

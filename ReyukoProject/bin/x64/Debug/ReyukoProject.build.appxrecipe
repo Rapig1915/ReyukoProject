@@ -112,11 +112,32 @@
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\accounting_drawer.png">
       <PackagePath>Assets\Icons\accounting_drawer.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\black_plus.png">
+      <PackagePath>Assets\Icons\black_plus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calculate.png">
+      <PackagePath>Assets\Icons\calculate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calendar.png">
+      <PackagePath>Assets\Icons\calendar.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calendar_1.png">
       <PackagePath>Assets\Icons\calendar_1.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calendar_drawer.png">
       <PackagePath>Assets\Icons\calendar_drawer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\chooseFile.png">
+      <PackagePath>Assets\Icons\chooseFile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\close.png">
+      <PackagePath>Assets\Icons\close.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\close2.png">
+      <PackagePath>Assets\Icons\close2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\close3.png">
+      <PackagePath>Assets\Icons\close3.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\contact_drawer.png">
       <PackagePath>Assets\Icons\contact_drawer.png</PackagePath>
@@ -136,6 +157,12 @@
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\dashboard_drawer.png">
       <PackagePath>Assets\Icons\dashboard_drawer.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\delete.png">
+      <PackagePath>Assets\Icons\delete.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\detail.png">
+      <PackagePath>Assets\Icons\detail.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\document.png">
       <PackagePath>Assets\Icons\document.png</PackagePath>
     </AppxPackagedFile>
@@ -145,11 +172,29 @@
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\document_drawer.png">
       <PackagePath>Assets\Icons\document_drawer.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\download.png">
+      <PackagePath>Assets\Icons\download.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\edit.png">
+      <PackagePath>Assets\Icons\edit.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\excute.png">
+      <PackagePath>Assets\Icons\excute.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\finance.png">
       <PackagePath>Assets\Icons\finance.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\finance_1.png">
       <PackagePath>Assets\Icons\finance_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\find.png">
+      <PackagePath>Assets\Icons\find.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\fullscreen.png">
+      <PackagePath>Assets\Icons\fullscreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\green_plus.png">
+      <PackagePath>Assets\Icons\green_plus.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\icon.png">
       <PackagePath>Assets\Icons\icon.png</PackagePath>
@@ -184,11 +229,23 @@
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\money_1.png">
       <PackagePath>Assets\Icons\money_1.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\more.png">
+      <PackagePath>Assets\Icons\more.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\new.png">
+      <PackagePath>Assets\Icons\new.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\notes.png">
+      <PackagePath>Assets\Icons\notes.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\order.png">
       <PackagePath>Assets\Icons\order.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\order_1.png">
       <PackagePath>Assets\Icons\order_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\payment.png">
+      <PackagePath>Assets\Icons\payment.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\payment_drawer.png">
       <PackagePath>Assets\Icons\payment_drawer.png</PackagePath>
@@ -208,6 +265,9 @@
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\pos.png">
       <PackagePath>Assets\Icons\pos.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\posted.png">
+      <PackagePath>Assets\Icons\posted.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\pos_1.png">
       <PackagePath>Assets\Icons\pos_1.png</PackagePath>
     </AppxPackagedFile>
@@ -220,6 +280,15 @@
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\ppob_1.png">
       <PackagePath>Assets\Icons\ppob_1.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\print.png">
+      <PackagePath>Assets\Icons\print.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\print2.png">
+      <PackagePath>Assets\Icons\print2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\print3.png">
+      <PackagePath>Assets\Icons\print3.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\product_drawer.png">
       <PackagePath>Assets\Icons\product_drawer.png</PackagePath>
     </AppxPackagedFile>
@@ -231,6 +300,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\purchasing_drawer.png">
       <PackagePath>Assets\Icons\purchasing_drawer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\red_plus.png">
+      <PackagePath>Assets\Icons\red_plus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\refresh.png">
+      <PackagePath>Assets\Icons\refresh.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\report.png">
       <PackagePath>Assets\Icons\report.png</PackagePath>
@@ -252,6 +327,18 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\sales_drawer.png">
       <PackagePath>Assets\Icons\sales_drawer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\save.png">
+      <PackagePath>Assets\Icons\save.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\save2.png">
+      <PackagePath>Assets\Icons\save2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\save3.png">
+      <PackagePath>Assets\Icons\save3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\search.png">
+      <PackagePath>Assets\Icons\search.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\search_1.png">
       <PackagePath>Assets\Icons\search_1.png</PackagePath>
@@ -285,6 +372,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\transaktion_1.png">
       <PackagePath>Assets\Icons\transaktion_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\tutorial.png">
+      <PackagePath>Assets\Icons\tutorial.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\view_as_chart.png">
+      <PackagePath>Assets\Icons\view_as_chart.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>

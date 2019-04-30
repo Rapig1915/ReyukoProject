@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ReyukoProject.Model
 {
-    public class Customer : DbObject, IEquatable<Customer>
+    public class SalesOrder : DbObject, IEquatable<SalesOrder>
     {
         /// <summary>
         /// Gets or sets the customer's first name.
@@ -43,7 +43,7 @@ namespace ReyukoProject.Model
         /// </summary>
         public override string ToString() => $"{FirstName} {LastName}";
 
-        public bool Equals(Customer other) =>
+        public bool Equals(SalesOrder other) =>
             FirstName == other.FirstName &&
             LastName == other.LastName &&
             Company == other.Company &&

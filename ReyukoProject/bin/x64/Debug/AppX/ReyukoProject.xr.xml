@@ -319,6 +319,9 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Background" />
       <RootProperty Name="PrimaryCommands" />
+      <RootProperty Name="DefaultLabelPosition" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="Loaded" />
     </RootType>
     <RootType FullName="ReyukoProject.UserControls.CollapsibleSearchBox">
@@ -350,9 +353,7 @@
       <RootProperty Name="SelectedItem" />
       <RootProperty Name="Columns" />
       <RootProperty Name="ContextFlyout" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="DragIndicatorStyle" />
       <RootProperty Name="DropLocationIndicatorStyle" />
       <RootProperty Name="HorizontalGridLinesBrush" />
@@ -413,6 +414,10 @@
     <RootType FullName="ReyukoProject.Pages.Sales_Page.Sales_Order_Detail_Page" />
     <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyout">
       <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.BitmapIcon">
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="UriSource" />
     </RootType>
     <RootType FullName="ReyukoProject.Pages.Sales_Page.Sales_Order_List_Page" />
     <RootType FullName="System.String" />

@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-30T19:01:47.088</Modified>
+      <Modified>2019-04-30T20:09:54.837</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\ReyukoProject.exe">
       <PackagePath>entrypoint\ReyukoProject.exe</PackagePath>
-      <Modified>2019-04-30T19:01:44.227</Modified>
+      <Modified>2019-04-30T20:09:52.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
@@ -150,6 +150,18 @@
       <PackagePath>Assets\Icons\accounting_drawer.png</PackagePath>
       <Modified>2019-04-30T09:34:45.537</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\black_plus.png">
+      <PackagePath>Assets\Icons\black_plus.png</PackagePath>
+      <Modified>2019-04-30T19:12:48.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calculate.png">
+      <PackagePath>Assets\Icons\calculate.png</PackagePath>
+      <Modified>2019-04-30T19:12:48.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calendar.png">
+      <PackagePath>Assets\Icons\calendar.png</PackagePath>
+      <Modified>2019-04-30T19:12:48.919</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calendar_1.png">
       <PackagePath>Assets\Icons\calendar_1.png</PackagePath>
       <Modified>2019-04-30T09:34:45.573</Modified>
@@ -157,6 +169,22 @@
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calendar_drawer.png">
       <PackagePath>Assets\Icons\calendar_drawer.png</PackagePath>
       <Modified>2019-04-30T09:34:45.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\chooseFile.png">
+      <PackagePath>Assets\Icons\chooseFile.png</PackagePath>
+      <Modified>2019-04-30T19:12:48.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\close.png">
+      <PackagePath>Assets\Icons\close.png</PackagePath>
+      <Modified>2019-04-30T19:12:48.969</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\close2.png">
+      <PackagePath>Assets\Icons\close2.png</PackagePath>
+      <Modified>2019-04-30T19:12:48.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\close3.png">
+      <PackagePath>Assets\Icons\close3.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\contact_drawer.png">
       <PackagePath>Assets\Icons\contact_drawer.png</PackagePath>
@@ -182,6 +210,14 @@
       <PackagePath>Assets\Icons\dashboard_drawer.png</PackagePath>
       <Modified>2019-04-30T09:34:45.681</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\delete.png">
+      <PackagePath>Assets\Icons\delete.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\detail.png">
+      <PackagePath>Assets\Icons\detail.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.029</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\document.png">
       <PackagePath>Assets\Icons\document.png</PackagePath>
       <Modified>2019-04-30T09:34:45.695</Modified>
@@ -194,6 +230,18 @@
       <PackagePath>Assets\Icons\document_drawer.png</PackagePath>
       <Modified>2019-04-30T09:34:45.714</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\download.png">
+      <PackagePath>Assets\Icons\download.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\edit.png">
+      <PackagePath>Assets\Icons\edit.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\excute.png">
+      <PackagePath>Assets\Icons\excute.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.039</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\finance.png">
       <PackagePath>Assets\Icons\finance.png</PackagePath>
       <Modified>2019-04-30T09:34:45.724</Modified>
@@ -201,6 +249,18 @@
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\finance_1.png">
       <PackagePath>Assets\Icons\finance_1.png</PackagePath>
       <Modified>2019-04-30T09:34:45.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\find.png">
+      <PackagePath>Assets\Icons\find.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\fullscreen.png">
+      <PackagePath>Assets\Icons\fullscreen.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\green_plus.png">
+      <PackagePath>Assets\Icons\green_plus.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\icon.png">
       <PackagePath>Assets\Icons\icon.png</PackagePath>
@@ -246,6 +306,18 @@
       <PackagePath>Assets\Icons\money_1.png</PackagePath>
       <Modified>2019-04-30T09:34:45.786</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\more.png">
+      <PackagePath>Assets\Icons\more.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\new.png">
+      <PackagePath>Assets\Icons\new.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\notes.png">
+      <PackagePath>Assets\Icons\notes.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.059</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\order.png">
       <PackagePath>Assets\Icons\order.png</PackagePath>
       <Modified>2019-04-30T09:34:45.789</Modified>
@@ -253,6 +325,10 @@
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\order_1.png">
       <PackagePath>Assets\Icons\order_1.png</PackagePath>
       <Modified>2019-04-30T09:34:45.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\payment.png">
+      <PackagePath>Assets\Icons\payment.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\payment_drawer.png">
       <PackagePath>Assets\Icons\payment_drawer.png</PackagePath>
@@ -278,6 +354,10 @@
       <PackagePath>Assets\Icons\pos.png</PackagePath>
       <Modified>2019-04-30T09:34:45.809</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\posted.png">
+      <PackagePath>Assets\Icons\posted.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.069</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\pos_1.png">
       <PackagePath>Assets\Icons\pos_1.png</PackagePath>
       <Modified>2019-04-30T09:34:45.812</Modified>
@@ -294,6 +374,18 @@
       <PackagePath>Assets\Icons\ppob_1.png</PackagePath>
       <Modified>2019-04-30T09:34:45.814</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\print.png">
+      <PackagePath>Assets\Icons\print.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\print2.png">
+      <PackagePath>Assets\Icons\print2.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\print3.png">
+      <PackagePath>Assets\Icons\print3.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.079</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\product_drawer.png">
       <PackagePath>Assets\Icons\product_drawer.png</PackagePath>
       <Modified>2019-04-30T09:34:45.814</Modified>
@@ -309,6 +401,14 @@
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\purchasing_drawer.png">
       <PackagePath>Assets\Icons\purchasing_drawer.png</PackagePath>
       <Modified>2019-04-30T09:34:45.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\red_plus.png">
+      <PackagePath>Assets\Icons\red_plus.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\refresh.png">
+      <PackagePath>Assets\Icons\refresh.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\report.png">
       <PackagePath>Assets\Icons\report.png</PackagePath>
@@ -337,6 +437,22 @@
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\sales_drawer.png">
       <PackagePath>Assets\Icons\sales_drawer.png</PackagePath>
       <Modified>2019-04-30T09:34:45.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\save.png">
+      <PackagePath>Assets\Icons\save.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\save2.png">
+      <PackagePath>Assets\Icons\save2.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\save3.png">
+      <PackagePath>Assets\Icons\save3.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\search.png">
+      <PackagePath>Assets\Icons\search.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\search_1.png">
       <PackagePath>Assets\Icons\search_1.png</PackagePath>
@@ -381,6 +497,14 @@
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\transaktion_1.png">
       <PackagePath>Assets\Icons\transaktion_1.png</PackagePath>
       <Modified>2019-04-30T09:34:45.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\tutorial.png">
+      <PackagePath>Assets\Icons\tutorial.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\view_as_chart.png">
+      <PackagePath>Assets\Icons\view_as_chart.png</PackagePath>
+      <Modified>2019-04-30T19:12:49.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
@@ -475,71 +599,71 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\ReyukoProject.xr.xml">
       <PackagePath>ReyukoProject.xr.xml</PackagePath>
-      <Modified>2019-04-30T18:36:16.024</Modified>
+      <Modified>2019-04-30T20:09:51.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.728</Modified>
+      <Modified>2019-04-30T20:09:51.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.737</Modified>
+      <Modified>2019-04-30T20:09:51.952</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Dashboard_Page\Dashboard_Page.xbf">
       <PackagePath>Pages\Dashboard_Page\Dashboard_Page.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.756</Modified>
+      <Modified>2019-04-30T20:09:51.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Sales_Page\Sales_Order_Detail_Page.xbf">
       <PackagePath>Pages\Sales_Page\Sales_Order_Detail_Page.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.747</Modified>
+      <Modified>2019-04-30T20:09:51.962</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Sales_Page\Sales_Order_List_Page.xbf">
       <PackagePath>Pages\Sales_Page\Sales_Order_List_Page.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.747</Modified>
+      <Modified>2019-04-30T20:09:51.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\ContentsStyle.xbf">
       <PackagePath>Styles\ContentsStyle.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.756</Modified>
+      <Modified>2019-04-30T20:09:51.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\DataGrid.xbf">
       <PackagePath>Styles\DataGrid.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.716</Modified>
+      <Modified>2019-04-30T20:09:51.912</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\Expander.xbf">
       <PackagePath>Styles\Expander.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.668</Modified>
+      <Modified>2019-04-30T20:09:51.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\NavStyles.xbf">
       <PackagePath>Styles\NavStyles.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.687</Modified>
+      <Modified>2019-04-30T20:09:51.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\ChartControl.xbf">
       <PackagePath>UserControls\ChartControl.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.756</Modified>
+      <Modified>2019-04-30T20:09:51.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\CollapsibleSearchBox.xbf">
       <PackagePath>UserControls\CollapsibleSearchBox.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.756</Modified>
+      <Modified>2019-04-30T20:09:51.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\Dashboard_ListControl.xbf">
       <PackagePath>UserControls\Dashboard_ListControl.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.756</Modified>
+      <Modified>2019-04-30T20:09:51.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\Dashboard_ListDetailWindow.xbf">
       <PackagePath>UserControls\Dashboard_ListDetailWindow.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.756</Modified>
+      <Modified>2019-04-30T20:09:51.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\Dashboard_TableControl.xbf">
       <PackagePath>UserControls\Dashboard_TableControl.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.756</Modified>
+      <Modified>2019-04-30T20:09:51.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Views\CustomerDetailPage.xbf">
       <PackagePath>Views\CustomerDetailPage.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.756</Modified>
+      <Modified>2019-04-30T20:09:51.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Views\SaveChangesDialog.xbf">
       <PackagePath>Views\SaveChangesDialog.xbf</PackagePath>
-      <Modified>2019-04-30T19:01:43.756</Modified>
+      <Modified>2019-04-30T20:09:51.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -763,11 +887,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-04-30T18:36:18.167</Modified>
+      <Modified>2019-04-30T19:51:14.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Core\ReyukoProject.exe">
       <PackagePath>ReyukoProject.exe</PackagePath>
-      <Modified>2019-04-30T19:01:47.074</Modified>
+      <Modified>2019-04-30T20:09:54.825</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

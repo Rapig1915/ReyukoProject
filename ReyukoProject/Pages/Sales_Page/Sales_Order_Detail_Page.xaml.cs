@@ -164,7 +164,7 @@ namespace ReyukoProject.Pages.Sales_Page
         private void CustomerSearchBox_QuerySubmitted(AutoSuggestBox sender,
             AutoSuggestBoxQuerySubmittedEventArgs args)
         {
-            if (args.ChosenSuggestion is Customer customer)
+            if (args.ChosenSuggestion is SalesOrder customer)
             {
                 Frame.Navigate(typeof(CustomerDetailPage), customer.Id);
             }

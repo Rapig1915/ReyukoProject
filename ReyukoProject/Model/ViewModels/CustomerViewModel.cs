@@ -8,14 +8,14 @@ namespace ReyukoProject.Model.ViewModels
 {
     public class CustomerViewModel : BindableBase, IEditableObject
     {
-        public CustomerViewModel(Customer model = null) => Model = model ?? new Customer();
+        public CustomerViewModel(SalesOrder model = null) => Model = model ?? new SalesOrder();
 
-        private Customer _model;
+        private SalesOrder _model;
 
         /// <summary>
         /// Gets or sets the underlying Customer object.
         /// </summary>
-        public Customer Model
+        public SalesOrder Model
         {
             get => _model;
             set

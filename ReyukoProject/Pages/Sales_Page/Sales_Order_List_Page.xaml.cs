@@ -171,8 +171,14 @@ namespace ReyukoProject.Pages.Sales_Page
         /// <summary>
         /// Navigates to a blank customer details page for the user to fill in.
         /// </summary>
-        private void CreateCustomer_Click(object sender, RoutedEventArgs e) =>
+        private void PrintOrder_Click(object sender, RoutedEventArgs e)
+        {
+            /*
+             * =>
             Frame.Navigate(typeof(CustomerDetailPage), null, new DrillInNavigationTransitionInfo());
+            */
+        }
+        
 
         /// <summary>
         /// Reverts all changes to the row if the row has changes but a cell is not currently in edit mode.
