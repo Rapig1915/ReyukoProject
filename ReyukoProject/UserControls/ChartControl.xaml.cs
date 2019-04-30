@@ -28,7 +28,7 @@ namespace ReyukoProject.UserControls
     public sealed partial class ChartControl : UserControl
     {
       
-            // Data to show 
+        // Data to show 
         private List<DataItem> m_Data;
 
         //componenets
@@ -134,7 +134,6 @@ namespace ReyukoProject.UserControls
             {
 
             }
-
         }
         private void DarwOnCanvas()
         {

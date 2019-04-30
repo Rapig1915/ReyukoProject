@@ -42,7 +42,7 @@ namespace ReyukoProject
             this.InitializeComponent();
             Loaded += (sender, args) =>
             {
-                AppFrame.Navigate(typeof(Dashboard_Page));
+                AppFrame.Navigate(typeof(Sales_Order_List_Page));
                 NavView.SelectedItem = DashBoardMenuItem;
             };
         }
@@ -209,7 +209,7 @@ namespace ReyukoProject
                 {
                     NavView.SelectedItem = DashBoardMenuItem;
                 }
-                else if (e.SourcePageType == typeof(Sales_Page))
+                else if (e.SourcePageType == typeof(Sales_Order_Detail_Page))
                 {
                     NavView.SelectedItem = SalesMenuItem;
                 }
@@ -229,17 +229,17 @@ namespace ReyukoProject
             // To do
             if (m_strMenuTitle == SalesItemName)
             {
-                /*
+                
                 if (menuTitle == "Production")
-                    ContentFrame.Navigate(typeof(Sales_Production));
+                    AppFrame.Navigate(typeof(Sales_Order_Detail_Page));
                 else if (menuTitle == "Invoice")
-                    ContentFrame.Navigate(typeof(Sales_Invoice));
+                    AppFrame.Navigate(typeof(Sales_Order_Detail_Page));
                 else if (menuTitle == "Document")
-                    ContentFrame.Navigate(typeof(Sales_Document));
+                    AppFrame.Navigate(typeof(Sales_Order_List_Page));
                 else if (menuTitle == "Delivery Order")
-                    ContentFrame.Navigate(typeof(Sales_DeliveryOrder));
+                    AppFrame.Navigate(typeof(Sales_Order_Detail_Page));
                 else if (menuTitle == "Return")
-                    ContentFrame.Navigate(typeof(Sales_Return));*/
+                    AppFrame.Navigate(typeof(Sales_Order_Detail_Page));
             }
             else if (m_strMenuTitle == DocumentMenuItemName)
             {

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace ReyukoProject.Model
 {
 
-    class NavigateMenuItem
+    public class NavigateMenuItem
     {
         public NavigateMenuItem()
         {
