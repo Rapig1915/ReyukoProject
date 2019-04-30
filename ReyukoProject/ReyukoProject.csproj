@@ -123,8 +123,12 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\NavigateMenuItem.cs" />
     <Compile Include="Pages\Dashboard_Page\Dashboard_Page.xaml.cs">
       <DependentUpon>Dashboard_Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Sales_Page\Sales_Page.xaml.cs">
+      <DependentUpon>Sales_Page.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -194,6 +198,11 @@
     <Content Include="Assets\Icons\T.product_1.png" />
     <Content Include="Assets\Icons\transaktion.png" />
     <Content Include="Assets\Icons\transaktion_1.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-125.png" />
+    <Content Include="Assets\SplashScreen.scale-150.png" />
+    <Content Include="Assets\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -213,6 +222,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\Dashboard_Page\Dashboard_Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Sales_Page\Sales_Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

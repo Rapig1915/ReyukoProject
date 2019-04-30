@@ -4,4 +4,7 @@
     <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
     <UseEmulator>true</UseEmulator>
   </PropertyGroup>
+  <PropertyGroup>
+    <SplashScreenSource>C:\Users\danie\Pictures\7fe8b227f0caa4c7799b08d4364ec453d51e05b12f832e2755a47de625f09bb1.png</SplashScreenSource>
+  </PropertyGroup>
 </Project>

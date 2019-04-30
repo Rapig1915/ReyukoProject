@@ -1,11 +1,9 @@
 ﻿<Page
     x:Class="ReyukoProject.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:ReyukoProject"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     mc:Ignorable="d">
  
     <Grid
@@ -22,20 +20,24 @@
                         >
             <NavigationView.MenuItems>
                 <NavigationViewItem 
-                    x:Name="DashBoardMenuItem" HorizontalAlignment="Stretch">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
+                    ToolTipService.ToolTip="{x:Bind DashboardMenuItemName}"
+                    x:Name="DashBoardMenuItem" >
+                    <StackPanel 
+                        Margin="-5,0,0,0"
+                        Name = "{x:Bind DashboardMenuItemName}"
+                        Orientation="Horizontal" Spacing="10">
                         <Image 
                             Width="20"
-                           Source="Assets/Icons/dashboard_drawer.png"
-                           Stretch="Uniform"/>
+                           Source="Assets/Icons/dashboard_drawer.png"/>
                         <TextBlock Text="{x:Bind DashboardMenuItemName}" Foreground="White"/>
                     </StackPanel>
                     
                 </NavigationViewItem>
 
                 <NavigationViewItem 
+                    ToolTipService.ToolTip="{x:Bind SalesItemName}"
                     x:Name="SalesMenuItem">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
+                    <StackPanel Margin="-5,0,0,0" Orientation="Horizontal" Spacing="10">
                         <Image 
                             Width="20"
                            Source="Assets/Icons/sales_drawer.png"
@@ -45,8 +47,9 @@
                 </NavigationViewItem>
 
                 <NavigationViewItem 
+                    ToolTipService.ToolTip="{x:Bind PurchasingMenuItemName}"
                     x:Name="PurchasingMenuItem">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
+                    <StackPanel Margin="-5,0,0,0" Orientation="Horizontal" Spacing="10">
                         <Image 
                             Width="20"
                            Source="Assets/Icons/purchasing_drawer.png"
@@ -56,8 +59,9 @@
                 </NavigationViewItem>
 
                 <NavigationViewItem 
+                    ToolTipService.ToolTip="{x:Bind ProductMenuItemName}"
                     x:Name="ProductMenuItem">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
+                    <StackPanel Margin="-5,0,0,0" Orientation="Horizontal" Spacing="10">
                         <Image 
                             Width="20"
                            Source="Assets/Icons/sales_drawer.png"
@@ -67,8 +71,9 @@
                 </NavigationViewItem>
 
                 <NavigationViewItem 
+                    ToolTipService.ToolTip="{x:Bind InventoryMenuItemName}"
                     x:Name="InventoryMenuItem">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
+                    <StackPanel Margin="-5,0,0,0" Orientation="Horizontal" Spacing="10">
                         <Image 
                             Width="20"
                            Source="Assets/Icons/inventory_drawer.png"
@@ -78,8 +83,9 @@
                 </NavigationViewItem>
 
                 <NavigationViewItem 
+                    ToolTipService.ToolTip="{x:Bind PaymentMenuItemName}"
                     x:Name="PaymentMenuItem">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
+                    <StackPanel Margin="-5,0,0,0"  Orientation="Horizontal" Spacing="10">
                         <Image 
                             Width="20"
                            Source="Assets/Icons/payment_drawer.png"
@@ -89,8 +95,9 @@
                 </NavigationViewItem>
 
                 <NavigationViewItem 
+                    ToolTipService.ToolTip="{x:Bind AccountingMenuItemName}"
                     x:Name="AccountingMenuItem">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
+                    <StackPanel Margin="-5,0,0,0" Orientation="Horizontal" Spacing="10">
                         <Image 
                             Width="20"
                            Source="Assets/Icons/accounting_drawer.png"
@@ -100,8 +107,9 @@
                 </NavigationViewItem>
 
                 <NavigationViewItem 
+                    ToolTipService.ToolTip="{x:Bind ContactMenuItemName}"
                     x:Name="ContactMenuItem">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
+                    <StackPanel Margin="-5,0,0,0" Orientation="Horizontal" Spacing="10">
                         <Image 
                             Width="20"
                            Source="Assets/Icons/contact_drawer.png"
@@ -111,8 +119,9 @@
                 </NavigationViewItem>
 
                 <NavigationViewItem 
+                    ToolTipService.ToolTip="{x:Bind ReportingMenuItemName}"
                     x:Name="ReportingMenuItem">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
+                    <StackPanel Margin="-5,0,0,0" Orientation="Horizontal" Spacing="10">
                         <Image 
                             Width="20"
                            Source="Assets/Icons/reporting_drawer.png"
@@ -122,8 +131,9 @@
                 </NavigationViewItem>
 
                 <NavigationViewItem 
+                    ToolTipService.ToolTip="{x:Bind DocumentMenuItemName}"
                     x:Name="DocumentMenuItem">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
+                    <StackPanel Margin="-5,0,0,0" Orientation="Horizontal" Spacing="10">
                         <Image 
                             Width="20"
                            Source="Assets/Icons/document_drawer.png"
@@ -133,8 +143,9 @@
                 </NavigationViewItem>
 
                 <NavigationViewItem 
+                    ToolTipService.ToolTip="{x:Bind CalendarMenuItemName}"
                     x:Name="CalendarMenuItem">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
+                    <StackPanel Margin="-5,0,0,0" Orientation="Horizontal" Spacing="10">
                         <Image 
                             Width="20"
                            Source="Assets/Icons/calendar_drawer.png"
@@ -144,8 +155,9 @@
                 </NavigationViewItem>
 
                 <NavigationViewItem 
+                    ToolTipService.ToolTip="{x:Bind POSMenuItemName}"
                     x:Name="POSMenuItem">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
+                    <StackPanel Margin="-5,0,0,0" Orientation="Horizontal" Spacing="10">
                         <Image 
                             Width="20"
                            Source="Assets/Icons/pos_drawer.png"
@@ -155,8 +167,9 @@
                 </NavigationViewItem>
 
                 <NavigationViewItem 
+                    ToolTipService.ToolTip="{x:Bind ServicesMenuItemName}"
                     x:Name="ServicesMenuItem">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
+                    <StackPanel Margin="-5,0,0,0" Orientation="Horizontal" Spacing="10">
                         <Image 
                             Width="20"
                            Source="Assets/Icons/services_drawer.png"
@@ -166,8 +179,9 @@
                 </NavigationViewItem>
 
                 <NavigationViewItem 
+                    ToolTipService.ToolTip="{x:Bind SettingsMenuItemName}"
                     x:Name="SettingsMenuItem">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
+                    <StackPanel Margin="-5,0,0,0" Orientation="Horizontal" Spacing="10">
                         <Image 
                             Width="20"
                            Source="Assets/Icons/setting_drawer.png"
@@ -176,6 +190,57 @@
                     </StackPanel>
                 </NavigationViewItem>
             </NavigationView.MenuItems>
+            <SplitView
+                    x:Name="SubMenuSplitView"
+                    DisplayMode="Inline"
+                    IsPaneOpen="False"
+                    OpenPaneLength="150">
+                <SplitView.Pane>
+                    <ListView
+                            x:Name="lvNavigationMenuSub"
+                            Background="#07273c"
+                            IsItemClickEnabled="True"
+                            ItemClick="LvNavigationMenuSub_ItemClick"
+                            >
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem">
+                                <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBlock Grid.Column="0" Text="{Binding Title}" Foreground="White"/>
+
+
+                                </Grid>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </SplitView.Pane>
+                <SplitView.Content>
+                    <Frame
+                        x:Name="frame"
+                        Margin="20,0,0,0"
+                        Navigating="OnNavigatingToPage">    
+                        <Frame.ContentTransitions>
+                            <TransitionCollection>
+                                <NavigationThemeTransition>
+                                    <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                                        <EntranceNavigationTransitionInfo />
+                                    </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                                </NavigationThemeTransition>
+                            </TransitionCollection>
+                        </Frame.ContentTransitions>
+                    </Frame>
+                </SplitView.Content>
+            </SplitView>
+            
         </NavigationView>
 
 
