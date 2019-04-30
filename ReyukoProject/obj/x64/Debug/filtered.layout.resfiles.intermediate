@@ -86,4 +86,8 @@ Styles\ContentsStyle.xbf
 Styles\DataGrid.xbf
 Styles\Expander.xbf
 Styles\NavStyles.xbf
+UserControls\ChartControl.xbf
+UserControls\Dashboard_ListControl.xbf
+UserControls\Dashboard_ListDetailWindow.xbf
+UserControls\Dashboard_TableControl.xbf
 Properties\Default.rd.xml

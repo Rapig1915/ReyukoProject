@@ -384,6 +384,18 @@
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\NavStyles.xbf">
       <PackagePath>Styles\NavStyles.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\ChartControl.xbf">
+      <PackagePath>UserControls\ChartControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\Dashboard_ListControl.xbf">
+      <PackagePath>UserControls\Dashboard_ListControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\Dashboard_ListDetailWindow.xbf">
+      <PackagePath>UserControls\Dashboard_ListDetailWindow.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\Dashboard_TableControl.xbf">
+      <PackagePath>UserControls\Dashboard_TableControl.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>

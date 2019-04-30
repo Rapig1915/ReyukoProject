@@ -5,22 +5,66 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:Custom="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:UserControl="using:ReyukoProject.UserControls" 
     x:Class="ReyukoProject.Pages.Dashboard_Page.Dashboard_Page"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <Custom:DockPanel HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
-            <StackPanel Height="50" Custom:DockPanel.Dock="Top">
-                <TextBlock x:ConnectionId='2'
-                    x:Name="PageTitle"
-                    Style="{StaticResource PageTitleTextBlockStyle}"
-                    Text="Customers" />
-            </StackPanel>
-            <StackPanel Width="100" Custom:DockPanel.Dock="Left" Background="Red"></StackPanel>
-            <StackPanel Height="100" Custom:DockPanel.Dock="Bottom" Background="Green"></StackPanel>
-            <StackPanel Width="100" Custom:DockPanel.Dock="Right" Background="Blue"></StackPanel>
-        </Custom:DockPanel>
+    <Grid x:ConnectionId='2' x:Name="MyGrid" Padding="20,0,10,10" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="28.5"/>
+            <RowDefinition Height="31.5"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:ConnectionId='3' Grid.Row="0" 
+            x:Name="tbDescription"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            FontSize="36" Text="Dashboard" Margin="10,10,0,0" Foreground="Black" Grid.RowSpan="2" />
+        <Grid Margin="10,10,0,0" Grid.Row="2" >
+            <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5*"/>
+                        <RowDefinition Height="5*"/>
+                    </Grid.RowDefinitions>
+                    <UserControl:ChartControl x:ConnectionId='8' Grid.Row="0" Grid.Column="0" x:Name="graph1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                    <UserControl:ChartControl x:ConnectionId='9' Grid.Row="0" Grid.Column="1" x:Name="graph2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                    <UserControl:ChartControl x:ConnectionId='10' Grid.Row="1" Grid.Column="0" x:Name="graph3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                    <UserControl:ChartControl x:ConnectionId='11' Grid.Row="1" Grid.Column="1" x:Name="graph4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+
+                </Grid>
+                <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1">
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="3*"/>
+                            <RowDefinition Height="7*"/>
+                        </Grid.RowDefinitions>
+                        <UserControl:Dashboard_ListControl x:ConnectionId='4' Grid.Row="0" x:Name="list1" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch"/>
+                        <Grid Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="3.3*"/>
+                                <RowDefinition Height="3.3*"/>
+                                <RowDefinition Height="3.4*"/>
+                            </Grid.RowDefinitions>
+                            <UserControl:Dashboard_TableControl x:ConnectionId='5' Grid.Row="0" x:Name="table1" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch"/>
+                            <UserControl:Dashboard_TableControl x:ConnectionId='6' Grid.Row="1" x:Name="table2" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch"/>
+                            <UserControl:Dashboard_TableControl x:ConnectionId='7' Grid.Row="2" x:Name="table3" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch"/>
+                        </Grid>
+
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
     </Grid>
 </Page>
 

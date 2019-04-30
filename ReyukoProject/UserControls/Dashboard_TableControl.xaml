@@ -1,0 +1,60 @@
+﻿<UserControl
+    x:Class="ReyukoProject.UserControls.Dashboard_TableControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="using:ReyukoProject.UserControls"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <Grid Margin="20,5,20,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Name="headerGrid" Background="RoyalBlue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="30"/>
+            </Grid.ColumnDefinitions>
+            <Ellipse Grid.Column="0" Margin="6,4,1,4" Name="ellipse" Width="15" Height="15"/>
+            <TextBlock Grid.Column="1" Name="title1" Text="Title1" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="White" FontSize="12" FontWeight="Bold"/>
+            <TextBlock Grid.Column="2" Name="title2" Text="Title2" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="White" FontSize="12" FontWeight="Bold"/>
+            <Button Grid.Column="3" Name="btnMore" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <StackPanel Margin="-3,0,-7,1">
+                    <Image Source="/Assets/Icons/katalog_1.png" Height="17" Margin="1,0,2,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                </StackPanel>
+            </Button>
+
+        </Grid>
+        <ListView x:Name="list" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch" IsItemClickEnabled="True"
+                  ItemsSource="{x:Bind TableData}" BorderThickness="1,1,1,1" BorderBrush="Black">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment"  Value="Stretch"></Setter>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.ItemTemplate>
+                <DataTemplate x:Name="SingleLineDataTemplate" x:DataType="local:Dashboard_TableItem">
+
+                    <Grid BorderThickness="1,1,1,1" HorizontalAlignment="Stretch" Width="Auto">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="5*"/>
+                            <ColumnDefinition Width="4*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <CheckBox  Grid.Column="0" IsChecked="{x:Bind Selected}" BorderBrush="Black" />
+                        <TextBlock Grid.Column="1" Text="{x:Bind Name}" Foreground="Black" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Left" />
+                        <TextBlock Grid.Column="2" Text="{x:Bind Amount}" Foreground="Black" FontSize="12" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </Grid>
+</UserControl>
