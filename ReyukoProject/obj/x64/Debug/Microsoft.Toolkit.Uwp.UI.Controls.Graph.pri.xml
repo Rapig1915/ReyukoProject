@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Microsoft.Toolkit.Uwp.UI.Controls.Graph" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Microsoft.Toolkit.Uwp.UI.Controls.Graph">
+				<NamedResource name="Microsoft.Toolkit.Uwp.UI.Controls.Graph.xr.xml" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/Microsoft.Toolkit.Uwp.UI.Controls.Graph.xr.xml">
+					<Candidate type="Path">
+						<Value>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Microsoft.Toolkit.Uwp.UI.Controls.Graph.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="AadLogin">
+					<NamedResource name="AadLogin.xaml" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/AadLogin/AadLogin.xaml">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls.Graph\AadLogin\AadLogin.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AadLogin.xbf" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/AadLogin/AadLogin.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Assets">
+					<NamedResource name="folder.svg" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/Assets/folder.svg">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\folder.svg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="genericfile.png" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/Assets/genericfile.png">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\genericfile.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="person.png" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/Assets/person.png">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\person.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="photo.png" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/Assets/photo.png">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\photo.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="PeoplePicker">
+					<NamedResource name="PeoplePicker.xaml" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/PeoplePicker/PeoplePicker.xaml">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PeoplePicker\PeoplePicker.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PeoplePicker.xbf" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/PeoplePicker/PeoplePicker.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="PlannerTaskList">
+					<NamedResource name="PlannerTaskList.xaml" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/PlannerTaskList/PlannerTaskList.xaml">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PlannerTaskList\PlannerTaskList.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PlannerTaskList.xbf" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/PlannerTaskList/PlannerTaskList.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="PowerBIEmbedded">
+					<NamedResource name="PowerBIEmbedded.xaml" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/PowerBIEmbedded/PowerBIEmbedded.xaml">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\PowerBIEmbedded.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PowerBIEmbedded.xbf" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/PowerBIEmbedded/PowerBIEmbedded.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="Embed">
+						<NamedResource name="EmbedReportFrame.html" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/PowerBIEmbedded/Embed/EmbedReportFrame.html">
+							<Candidate type="Path">
+								<Value>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\EmbedReportFrame.html</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="powerbi.min.js" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/PowerBIEmbedded/Embed/powerbi.min.js">
+							<Candidate type="Path">
+								<Value>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\powerbi.min.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="ReportContainer.html" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/PowerBIEmbedded/Embed/ReportContainer.html">
+							<Candidate type="Path">
+								<Value>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\ReportContainer.html</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="ProfileCard">
+					<NamedResource name="ProfileCard.xaml" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/ProfileCard/ProfileCard.xaml">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls.Graph\ProfileCard\ProfileCard.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ProfileCard.xbf" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/ProfileCard/ProfileCard.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="SharePointFileList">
+					<NamedResource name="SharePointFileList.xaml" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/SharePointFileList/SharePointFileList.xaml">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls.Graph\SharePointFileList\SharePointFileList.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SharePointFileList.xbf" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/SharePointFileList/SharePointFileList.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xaml" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/Themes/Generic.xaml">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Themes\Generic.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Generic.xbf" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls.Graph/Files/Microsoft.Toolkit.Uwp.UI.Controls.Graph/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

@@ -1,0 +1,183 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="ReyukoProject.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ReyukoProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    mc:Ignorable="d">
+ 
+    <Grid x:ConnectionId='2'
+        x:Name="LayoutRoot"
+        Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <NavigationView x:ConnectionId='3' x:Name="NavView"
+                        OpenPaneLength="160"
+                        AlwaysShowHeader="True" 
+                        IsSettingsVisible="False"
+                                                                
+                                                             
+                                                                                 
+                        >
+            <NavigationView.MenuItems>
+                <NavigationViewItem x:ConnectionId='4' 
+                    x:Name="DashBoardMenuItem" HorizontalAlignment="Stretch">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/dashboard_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock x:ConnectionId='31'                                       Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem x:ConnectionId='5' 
+                    x:Name="SalesMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/sales_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock x:ConnectionId='30'                               Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem x:ConnectionId='6' 
+                    x:Name="PurchasingMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/purchasing_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock x:ConnectionId='29'                                        Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem x:ConnectionId='7' 
+                    x:Name="ProductMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/sales_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock x:ConnectionId='28'                                     Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem x:ConnectionId='8' 
+                    x:Name="InventoryMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/inventory_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock x:ConnectionId='27'                                       Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem x:ConnectionId='9' 
+                    x:Name="PaymentMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/payment_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock x:ConnectionId='26'                                     Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem x:ConnectionId='10' 
+                    x:Name="AccountingMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/accounting_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock x:ConnectionId='25'                                        Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem x:ConnectionId='11' 
+                    x:Name="ContactMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/contact_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock x:ConnectionId='24'                                     Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem x:ConnectionId='12' 
+                    x:Name="ReportingMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/reporting_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock x:ConnectionId='23'                                       Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem x:ConnectionId='13' 
+                    x:Name="DocumentMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/document_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock x:ConnectionId='22'                                      Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem x:ConnectionId='14' 
+                    x:Name="CalendarMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/calendar_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock x:ConnectionId='21'                                      Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem x:ConnectionId='15' 
+                    x:Name="POSMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/pos_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock x:ConnectionId='20'                                 Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem x:ConnectionId='16' 
+                    x:Name="ServicesMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/services_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock x:ConnectionId='19'                                      Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem x:ConnectionId='17' 
+                    x:Name="SettingsMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/setting_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock x:ConnectionId='18'                                      Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+            </NavigationView.MenuItems>
+        </NavigationView>
+
+
+    </Grid>
+</Page>
+

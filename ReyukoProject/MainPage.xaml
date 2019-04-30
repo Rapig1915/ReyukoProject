@@ -1,0 +1,182 @@
+﻿<Page
+    x:Class="ReyukoProject.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ReyukoProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    mc:Ignorable="d">
+ 
+    <Grid
+        x:Name="LayoutRoot"
+        Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <NavigationView x:Name="NavView"
+                        OpenPaneLength="160"
+                        AlwaysShowHeader="True" 
+                        IsSettingsVisible="False"
+                        ItemInvoked="NavigationView_ItemInvoked"
+                        BackRequested="NavView_BackRequested"
+                        IsBackEnabled="{x:Bind AppFrame.CanGoBack, Mode=OneWay}" 
+                        >
+            <NavigationView.MenuItems>
+                <NavigationViewItem 
+                    x:Name="DashBoardMenuItem" HorizontalAlignment="Stretch">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/dashboard_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock Text="{x:Bind DashboardMenuItemName}" Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem 
+                    x:Name="SalesMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/sales_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock Text="{x:Bind SalesItemName}" Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem 
+                    x:Name="PurchasingMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/purchasing_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock Text="{x:Bind PurchasingMenuItemName}" Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem 
+                    x:Name="ProductMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/sales_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock Text="{x:Bind ProductMenuItemName}" Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem 
+                    x:Name="InventoryMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/inventory_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock Text="{x:Bind InventoryMenuItemName}" Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem 
+                    x:Name="PaymentMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/payment_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock Text="{x:Bind PaymentMenuItemName}" Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem 
+                    x:Name="AccountingMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/accounting_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock Text="{x:Bind AccountingMenuItemName}" Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem 
+                    x:Name="ContactMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/contact_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock Text="{x:Bind ContactMenuItemName}" Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem 
+                    x:Name="ReportingMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/reporting_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock Text="{x:Bind ReportingMenuItemName}" Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem 
+                    x:Name="DocumentMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/document_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock Text="{x:Bind DocumentMenuItemName}" Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem 
+                    x:Name="CalendarMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/calendar_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock Text="{x:Bind CalendarMenuItemName}" Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem 
+                    x:Name="POSMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/pos_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock Text="{x:Bind POSMenuItemName}" Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem 
+                    x:Name="ServicesMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/services_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock Text="{x:Bind ServicesMenuItemName}" Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+                <NavigationViewItem 
+                    x:Name="SettingsMenuItem">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Image 
+                            Width="20"
+                           Source="Assets/Icons/setting_drawer.png"
+                           Stretch="Uniform"/>
+                        <TextBlock Text="{x:Bind SettingsMenuItemName}" Foreground="White"/>
+                    </StackPanel>
+                </NavigationViewItem>
+            </NavigationView.MenuItems>
+        </NavigationView>
+
+
+    </Grid>
+</Page>
