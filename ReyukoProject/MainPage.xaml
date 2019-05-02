@@ -16,7 +16,7 @@
                         IsSettingsVisible="False"
                         ItemInvoked="NavigationView_ItemInvoked"
                         BackRequested="NavView_BackRequested"
-                        IsBackEnabled="{x:Bind AppFrame.CanGoBack, Mode=OneWay}" 
+                        IsBackEnabled="{x:Bind AppFrame.CanGoBack, Mode=OneWay}" PaneClosing="Pane_Closed" 
                         >
             <NavigationView.MenuItems>
                 <NavigationViewItem 

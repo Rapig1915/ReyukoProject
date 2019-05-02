@@ -110,9 +110,10 @@ Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
 App.xbf
 MainPage.xbf
+Pages\Contact_Page\Customer Group.xbf
 Pages\Dashboard_Page\Dashboard_Page.xbf
-Pages\Sales_Page\Sales_Order_Detail_Page.xbf
-Pages\Sales_Page\Sales_Order_List_Page.xbf
+Pages\Sales_Page\Sales_Invoice_New.xbf
+Pages\Sales_Page\Sales_Invoice_Page.xbf
 ReyukoProject.xr.xml
 Styles\ContentsStyle.xbf
 Styles\DataGrid.xbf

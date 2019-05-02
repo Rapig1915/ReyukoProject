@@ -26,9 +26,9 @@ namespace ReyukoProject.Pages.Sales_Page
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Sales_Order_List_Page : Page
+    public sealed partial class Sales_Invoice_Page : Page
     {
-        public Sales_Order_List_Page()
+        public Sales_Invoice_Page()
         {
             this.InitializeComponent();
         }

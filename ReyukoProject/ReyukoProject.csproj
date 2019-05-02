@@ -133,14 +133,17 @@
     <Compile Include="Model\ViewModels\Converters.cs" />
     <Compile Include="Model\ViewModels\CustomerViewModel.cs" />
     <Compile Include="Model\ViewModels\MainViewModel.cs" />
+    <Compile Include="Pages\Contact_Page\Customer Group.xaml.cs">
+      <DependentUpon>Customer Group.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Dashboard_Page\Dashboard_Page.xaml.cs">
       <DependentUpon>Dashboard_Page.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Sales_Page\Sales_Order_Detail_Page.xaml.cs">
-      <DependentUpon>Sales_Order_Detail_Page.xaml</DependentUpon>
+    <Compile Include="Pages\Sales_Page\Sales_Invoice_New.xaml.cs">
+      <DependentUpon>Sales_Invoice_New.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Sales_Page\Sales_Order_List_Page.xaml.cs">
-      <DependentUpon>Sales_Order_List_Page.xaml</DependentUpon>
+    <Compile Include="Pages\Sales_Page\Sales_Invoice_Page.xaml.cs">
+      <DependentUpon>Sales_Invoice_Page.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\ICustomerRepository.cs" />
@@ -290,15 +293,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Pages\Contact_Page\Customer Group.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Dashboard_Page\Dashboard_Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Sales_Page\Sales_Order_Detail_Page.xaml">
+    <Page Include="Pages\Sales_Page\Sales_Invoice_New.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Sales_Page\Sales_Order_List_Page.xaml">
+    <Page Include="Pages\Sales_Page\Sales_Invoice_Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -364,7 +371,6 @@
   <ItemGroup>
     <Folder Include="Pages\Accounting_Page\" />
     <Folder Include="Pages\Calendar_Page\" />
-    <Folder Include="Pages\Contact_Page\" />
     <Folder Include="Pages\Document_Page\" />
     <Folder Include="Pages\Inventory_Page\" />
     <Folder Include="Pages\Payment_Page\" />

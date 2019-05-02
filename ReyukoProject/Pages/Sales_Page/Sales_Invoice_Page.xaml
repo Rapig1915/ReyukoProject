@@ -1,17 +1,13 @@
 ﻿<Page
-    x:Class="ReyukoProject.Pages.Sales_Page.Sales_Order_List_Page"
+    x:Class="ReyukoProject.Pages.Sales_Page.Sales_Invoice_Page"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:ReyukoProject.Pages.Sales_Page"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:toolkit="using:Microsoft.Toolkit.Uwp.UI.Controls"
-    xmlns:models="using:ReyukoProject.Model"
     xmlns:vm="using:ReyukoProject.Model.ViewModels"
     xmlns:stateTriggers="using:ReyukoProject.StateTriggers"
     xmlns:uc="using:ReyukoProject.UserControls"
-    xmlns:helper="using:ReyukoProject.Helpers"
-    xmlns:sys="using:System"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 

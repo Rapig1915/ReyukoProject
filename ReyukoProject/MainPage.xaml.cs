@@ -1,12 +1,12 @@
-﻿using Windows.UI.Xaml.Controls;
+﻿using ReyukoProject.Model;
 using ReyukoProject.Pages.Dashboard_Page;
 using ReyukoProject.Pages.Sales_Page;
-using Windows.UI.Xaml.Navigation;
-using Microsoft.Toolkit.Uwp.UI.Controls;
-using System.Collections.ObjectModel;
-using ReyukoProject.Model;
+using ReyukoProject.Pages.Contact_Page;
 using System;
+using System.Collections.ObjectModel;
+using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Navigation;
 
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -43,7 +43,7 @@ namespace ReyukoProject
             this.InitializeComponent();
             Loaded += (sender, args) =>
             {
-                AppFrame.Navigate(typeof(Sales_Order_List_Page));
+                AppFrame.Navigate(typeof(Sales_Invoice_Page));
                 NavView.SelectedItem = DashBoardMenuItem;
             };
         }
@@ -153,7 +153,7 @@ namespace ReyukoProject
             }
             else if (m_strMenuTitle == ReportingMenuItemName)
             {
-               
+                bSubMenuShow = false;
             }
             else if (m_strMenuTitle == DocumentMenuItemName)
             {
@@ -223,7 +223,7 @@ namespace ReyukoProject
                 {
                     NavView.SelectedItem = DashBoardMenuItem;
                 }
-                else if (e.SourcePageType == typeof(Sales_Order_Detail_Page))
+                else if (e.SourcePageType == typeof(Sales_Invoice_New))
                 {
                     NavView.SelectedItem = SalesMenuItem;
                 }
@@ -233,41 +233,11 @@ namespace ReyukoProject
                 }*/
             }
         }
-        private void LvNavigationMenuSub_ItemClick(object sender, PointerRoutedEventArgs e)//object sender, ItemClickEventArgs e)
-        {
-            /*var model = (NavigateMenuItem)e.ClickedItem;
-            if (model == null)
-                return;
-            string menuTitle = model.Title;
-
-            // To do
-            if (m_strMenuTitle == SalesItemName)
-            {
-
-                if (menuTitle == "Production")
-                    AppFrame.Navigate(typeof(Sales_Order_Detail_Page));
-                else if (menuTitle == "Invoice")
-                    AppFrame.Navigate(typeof(Sales_Order_Detail_Page));
-                else if (menuTitle == "Document")
-                    AppFrame.Navigate(typeof(Sales_Order_List_Page));
-                else if (menuTitle == "Delivery Order")
-                    AppFrame.Navigate(typeof(Sales_Order_Detail_Page));
-                else if (menuTitle == "Return")
-                    AppFrame.Navigate(typeof(Sales_Order_Detail_Page));
-            }
-            else if (m_strMenuTitle == DocumentMenuItemName)
-            {
-
-            }
-            SubMenuSplitView.IsPaneOpen = false;*/
-        }
-
+        
 
 
         private void On_NewItemPressed(object sender, PointerRoutedEventArgs e)
         {
-            int i;
-
 
             if (sender.GetType() == typeof(TextBlock))
             {
@@ -279,19 +249,28 @@ namespace ReyukoProject
                 {
 
                     if (menuTitle == "Production")
-                        AppFrame.Navigate(typeof(Sales_Order_Detail_Page));
+                        AppFrame.Navigate(typeof(Sales_Invoice_New));
                     else if (menuTitle == "Invoice")
-                        AppFrame.Navigate(typeof(Sales_Order_Detail_Page));
+                        AppFrame.Navigate(typeof(Sales_Invoice_New));
                     else if (menuTitle == "Document")
-                        AppFrame.Navigate(typeof(Sales_Order_List_Page));
+                        AppFrame.Navigate(typeof(Sales_Invoice_Page));
                     else if (menuTitle == "Delivery Order")
-                        AppFrame.Navigate(typeof(Sales_Order_Detail_Page));
+                        AppFrame.Navigate(typeof(Sales_Invoice_New));
                     else if (menuTitle == "Return")
-                        AppFrame.Navigate(typeof(Sales_Order_Detail_Page));
+                        AppFrame.Navigate(typeof(Sales_Invoice_New));
                 }
                 else if (m_strMenuTitle == DocumentMenuItemName)
                 {
 
+                }
+                else if (m_strMenuTitle == ContactMenuItemName)
+                {
+                    switch (menuTitle)
+                    {
+                        case "Customer Group":
+                            AppFrame.Navigate(typeof(Customer_Group));
+                            break;
+                    }
                 }
                 SubMenuSplitView.IsPaneOpen = false;
             }
@@ -301,14 +280,26 @@ namespace ReyukoProject
                 if(menuItem.Source != null)
                 {
                     string subMenu = menuItem.Tag.ToString();
-                    if (subMenu == "Production")
+                    if (m_strMenuTitle == SalesItemName)
                     {
-                        AppFrame.Navigate(typeof(Sales_Order_List_Page));
+                        switch(subMenu)
+                        {
+                            case "Production":
+                                AppFrame.Navigate(typeof(Sales_Invoice_Page));
+                                break;
+                        }
                     }
+                   
+
                 }
                 
                 SubMenuSplitView.IsPaneOpen = false;
             }
+        }
+
+        private void Pane_Closed(NavigationView sender, NavigationViewPaneClosingEventArgs args)
+        {
+            SubMenuSplitView.IsPaneOpen = false;
         }
     }
 }

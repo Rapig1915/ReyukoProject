@@ -16,7 +16,7 @@
                         IsSettingsVisible="False"
                                                                 
                                                              
-                                                                                 
+                                                                                                           
                         >
             <NavigationView.MenuItems>
                 <NavigationViewItem x:ConnectionId='4' 
