@@ -36,6 +36,7 @@
       <RootProperty Name="Style" />
       <RootProperty Name="Tag" />
       <RootProperty Name="Text" />
+      <RootProperty Name="Template" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
@@ -165,6 +166,8 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Spacing" />
       <RootProperty Name="Name" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
@@ -394,12 +397,14 @@
       <RootProperty Name="MinWidth" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="InputScope" />
+      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
       <RootProperty Name="Icon" />
       <RootProperty Name="Label" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Flyout" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.AppBarSeparator">
@@ -415,10 +420,15 @@
     <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyout">
       <RootProperty Name="Items" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CalendarDatePicker" />
     <RootType FullName="Windows.UI.Xaml.Controls.BitmapIcon">
       <RootProperty Name="Foreground" />
       <RootProperty Name="UriSource" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyoutSeparator" />
     <RootType FullName="ReyukoProject.Pages.Sales_Page.Sales_Order_List_Page" />
     <RootType FullName="System.String" />
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridCell" />

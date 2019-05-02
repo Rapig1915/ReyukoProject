@@ -55,12 +55,12 @@ namespace ReyukoProject.Pages.Sales_Page
         /// </summary>
         private void CustomerSearchBox_Loaded(object sender, RoutedEventArgs e)
         {
-            if (CustomerSearchBox != null)
+            /*if (CustomerSearchBox != null)
             {
                 CustomerSearchBox.AutoSuggestBox.QuerySubmitted += CustomerSearchBox_QuerySubmitted;
                 CustomerSearchBox.AutoSuggestBox.TextChanged += CustomerSearchBox_TextChanged;
                 CustomerSearchBox.AutoSuggestBox.PlaceholderText = "Search customers...";
-            }
+            }*/
         }
 
         /// <summary>
