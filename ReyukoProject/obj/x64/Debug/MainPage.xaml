@@ -194,13 +194,12 @@
                     x:Name="SubMenuSplitView"
                     DisplayMode="Inline"
                     IsPaneOpen="False"
-                    OpenPaneLength="150">
+                    OpenPaneLength="220">
                 <SplitView.Pane>
                     <ListView x:ConnectionId='34'
                             x:Name="lvNavigationMenuSub"
                             Background="#07273c"
-                            IsItemClickEnabled="True"
-                                                                     
+                            IsItemClickEnabled="True" 
                             >
                         <ListView.ItemContainerStyle>
                             <Style TargetType="ListViewItem">
@@ -211,20 +210,22 @@
                             <DataTemplate>
                                 <Grid>
                                     <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="Auto" />
                                         <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="15" />
                                     </Grid.ColumnDefinitions>
-
-                                    <TextBlock Grid.Column="0" Text="{Binding Title}" Foreground="White"/>
-
-
+                                    <TextBlock x:ConnectionId='36' Grid.Column="0" Text="{Binding Title}" Foreground="White"                                    HorizontalAlignment="Stretch" />
+                                    <Image x:ConnectionId='37' Grid.Column="1"
+                                        HorizontalAlignment="Right"
+                                        Tag="{Binding Title}"
+                                        Source ="{Binding IconPath}"
+                                        Width="15"                                    />
                                 </Grid>
                             </DataTemplate>
                         </ListView.ItemTemplate>
                     </ListView>
                 </SplitView.Pane>
                 <SplitView.Content>
-                    <Frame x:ConnectionId='36'
+                    <Frame x:ConnectionId='38'
                         x:Name="frame"
                         Margin="20,0,0,0"
                                                        >    

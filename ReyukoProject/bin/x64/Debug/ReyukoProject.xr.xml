@@ -2,6 +2,7 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="Title" />
+    <RootPropertyPathName Name="IconPath" />
     <RootPropertyPathName Name="Term" />
     <RootPropertyPathName Name="PaymentStatus" />
     <RootPropertyPathName Name="Email" />
@@ -199,6 +200,7 @@
       <RootProperty Name="Name" />
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="FontWeight" />
+      <RootEvent Name="PointerPressed" />
       <RootEvent Name="Loaded" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.PointerDownThemeAnimation" />
@@ -237,10 +239,12 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Source" />
       <RootProperty Name="Stretch" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Tag" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="PointerPressed" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
       <RootProperty Name="DisplayMode" />

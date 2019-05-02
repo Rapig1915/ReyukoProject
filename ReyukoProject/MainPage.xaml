@@ -194,13 +194,12 @@
                     x:Name="SubMenuSplitView"
                     DisplayMode="Inline"
                     IsPaneOpen="False"
-                    OpenPaneLength="150">
+                    OpenPaneLength="220">
                 <SplitView.Pane>
                     <ListView
                             x:Name="lvNavigationMenuSub"
                             Background="#07273c"
-                            IsItemClickEnabled="True"
-                            ItemClick="LvNavigationMenuSub_ItemClick"
+                            IsItemClickEnabled="True" 
                             >
                         <ListView.ItemContainerStyle>
                             <Style TargetType="ListViewItem">
@@ -211,13 +210,15 @@
                             <DataTemplate>
                                 <Grid>
                                     <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="Auto" />
                                         <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="15" />
                                     </Grid.ColumnDefinitions>
-
-                                    <TextBlock Grid.Column="0" Text="{Binding Title}" Foreground="White"/>
-
-
+                                    <TextBlock Grid.Column="0" Text="{Binding Title}" Foreground="White" PointerPressed="On_NewItemPressed" HorizontalAlignment="Stretch" />
+                                    <Image Grid.Column="1"
+                                        HorizontalAlignment="Right"
+                                        Tag="{Binding Title}"
+                                        Source ="{Binding IconPath}"
+                                        Width="15" PointerPressed="On_NewItemPressed" />
                                 </Grid>
                             </DataTemplate>
                         </ListView.ItemTemplate>
