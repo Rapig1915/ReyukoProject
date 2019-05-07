@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,25 +12,92 @@ namespace ReyukoProject.Model.ViewModels
 {
     public class MainViewModel : BindableBase
     {
+        public static SqlConnection MyDB { get; set; }
+        // Connection string for using Windows Authentication.
+        public string connectionString =
+            @"Data Source=localhost;Initial Catalog=Reyuko_DB;Integrated Security=False;User ID=admin;Password=admin";
+
+
+        /// <summary>
+        /// Load DB
+        /// </summary>
+        public void UseSqlite()
+        {
+            const string sqlCmd = "select * from dbo.currency";
+            try
+            {
+                using (MyDB = new SqlConnection(connectionString))
+                {
+
+                    MyDB.Open();
+                    if (MyDB.State == System.Data.ConnectionState.Open)
+                    {
+                        using (SqlCommand cmd = new SqlCommand(sqlCmd, MyDB))
+                        {
+                            using (SqlDataReader reader = cmd.ExecuteReader())
+                            {
+                                while (reader.Read())
+                                {
+                                    var currencyName = reader.GetString(2);
+                                    Currency curreny = new Currency();
+                                    curreny.Name = currencyName;
+                                    Currencies.Add(new CurrencyViewModel(curreny));
+                                }
+                            }
+                        }
+                    }
+                }
+                return;
+            }
+            catch (Exception eSql)
+            {
+                Debug.WriteLine("Exception: " + eSql.Message);
+            }
+            return;
+        }
+
         /// <summary>
         /// Creates a new MainViewModel.
         /// </summary>
         public MainViewModel()
         {
-            //=> Task.Run(GetCustomerListAsync);
+            UseSqlite();
+            //Task.Run(GetCustomerGroupListAsync);
+            //Task.Run(GetCurrencyGroupListAsync);
         }
+
+    // For Currency View Model
+        /// <summary>
+        /// The collection of currency in the list
+        /// </summary>
+        public ObservableCollection<CurrencyViewModel> Currencies { get; }
+            = new ObservableCollection<CurrencyViewModel>();
+
+        private CurrencyViewModel _selectedCurrency;
+
+        /// <summary>
+        /// Gets or sets the selected currency, or null if no customer is selected. 
+        /// </summary>
+        public CurrencyViewModel SelectedCurrency
+        {
+            get => _selectedCurrency;
+            set => Set(ref _selectedCurrency, value);
+        }
+
+    // For Customer View Model
+
         /// <summary>
         /// The collection of customers in the list. 
         /// </summary>
-        public ObservableCollection<CustomerViewModel> Customers { get; }
-            = new ObservableCollection<CustomerViewModel>();
+        public ObservableCollection<CustomerGroupViewModel> Customer_Group { get; }
+            = new ObservableCollection<CustomerGroupViewModel>();
 
-        private CustomerViewModel _selectedCustomer;
+        private CustomerGroupViewModel _selectedCustomer;
 
         /// <summary>
         /// Gets or sets the selected customer, or null if no customer is selected. 
         /// </summary>
-        public CustomerViewModel SelectedCustomer
+        public CustomerGroupViewModel SelectedCustomer
         {
             get => _selectedCustomer;
             set => Set(ref _selectedCustomer, value);
@@ -48,7 +117,7 @@ namespace ReyukoProject.Model.ViewModels
         /// <summary>
         /// Gets the complete list of customers from the database.
         /// </summary>
-        public async Task GetCustomerListAsync()
+        public async Task GetCustomerGroupListAsync()
         {
             await DispatcherHelper.ExecuteOnUIThreadAsync(() => IsLoading = true);
 
@@ -60,15 +129,41 @@ namespace ReyukoProject.Model.ViewModels
 
             await DispatcherHelper.ExecuteOnUIThreadAsync(() =>
             {
-                Customers.Clear();
+                Customer_Group.Clear();
                 foreach (var c in customers)
                 {
-                    Customers.Add(new CustomerViewModel(c));
+                    Customer_Group.Add(new CustomerGroupViewModel(c));
                 }
                 IsLoading = false;
             });
         }
 
+        /// <summary>
+        /// Gets the complete list of currency from the database.
+        /// </summary>
+        public async Task GetCurrencyGroupListAsync()
+        {
+            UseSqlite();
+            /*await DispatcherHelper.ExecuteOnUIThreadAsync(() => IsLoading = true);
+
+            var currency = await App.Repository.Currency.GetAsync();
+            if (currency == null)
+            {
+                return;
+            }
+
+            await DispatcherHelper.ExecuteOnUIThreadAsync(() =>
+            {
+                Currencies.Clear();
+                foreach (var c in currency)
+                {
+                    Currencies.Add(new CurrencyViewModel(c));
+                }
+                IsLoading = false;
+            });*/
+
+        }
+        
         /// <summary>
         /// Saves any modified customers and reloads the customer list from the database.
         /// </summary>
@@ -77,13 +172,13 @@ namespace ReyukoProject.Model.ViewModels
             Task.Run(async () =>
             {
                 IsLoading = true;
-                foreach (var modifiedCustomer in Customers
+                foreach (var modifiedCustomer in Customer_Group
                     .Where(customer => customer.IsModified).Select(customer => customer.Model))
                 {
                     await App.Repository.Customers.UpsertAsync(modifiedCustomer);
                 }
 
-                await GetCustomerListAsync();
+                await GetCustomerGroupListAsync();
                 IsLoading = false;
             });
         }

@@ -9,6 +9,11 @@ namespace ReyukoProject.Repository
     public interface IReyukoRepository
     {
         /// <summary>
+        /// Returns the currency repository.
+        /// </summary>
+        ICurrencyRepository Currency { get; }
+
+        /// <summary>
         /// Returns the customers repository.
         /// </summary>
         ICustomerRepository Customers { get; }

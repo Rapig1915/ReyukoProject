@@ -78,14 +78,14 @@ namespace ReyukoProject.Pages.Sales_Page
                 if (String.IsNullOrEmpty(sender.Text))
                 {
                     await DispatcherHelper.ExecuteOnUIThreadAsync(async () =>
-                        await ViewModel.GetCustomerListAsync());
+                        await ViewModel.GetCustomerGroupListAsync());
                     sender.ItemsSource = null;
                 }
                 else
                 {
                     string[] parameters = sender.Text.Split(new char[] { ' ' },
                         StringSplitOptions.RemoveEmptyEntries);
-                    sender.ItemsSource = ViewModel.Customers
+                    sender.ItemsSource = ViewModel.Customer_Group
                         .Where(customer => parameters.Any(parameter =>
                             customer.Address.StartsWith(parameter, StringComparison.OrdinalIgnoreCase) ||
                             customer.FirstName.StartsWith(parameter, StringComparison.OrdinalIgnoreCase) ||
@@ -107,17 +107,17 @@ namespace ReyukoProject.Pages.Sales_Page
         private async void CustomerSearchBox_QuerySubmitted(AutoSuggestBox sender,
             AutoSuggestBoxQuerySubmittedEventArgs args)
         {
-            if (String.IsNullOrEmpty(args.QueryText))
+            /*if (String.IsNullOrEmpty(args.QueryText))
             {
                 await DispatcherHelper.ExecuteOnUIThreadAsync(async () =>
-                    await ViewModel.GetCustomerListAsync());
+                    await ViewModel.GetCustomerGroupListAsync());
             }
             else
             {
                 string[] parameters = sender.Text.Split(new char[] { ' ' },
                     StringSplitOptions.RemoveEmptyEntries);
 
-                var matches = ViewModel.Customers.Where(customer => parameters
+                var matches = ViewModel.Customer_Group.Where(customer => parameters
                     .Any(parameter =>
                         customer.Address.StartsWith(parameter, StringComparison.OrdinalIgnoreCase) ||
                         customer.FirstName.StartsWith(parameter, StringComparison.OrdinalIgnoreCase) ||
@@ -138,7 +138,7 @@ namespace ReyukoProject.Pages.Sales_Page
                         ViewModel.Customers.Add(match);
                     }
                 });
-            }
+            }*/
         }
 
         /// <summary>
@@ -200,7 +200,7 @@ namespace ReyukoProject.Pages.Sales_Page
         /// Selects the tapped customer. 
         /// </summary>
         private void DataGrid_RightTapped(object sender, RightTappedRoutedEventArgs e) =>
-            ViewModel.SelectedCustomer = (e.OriginalSource as FrameworkElement).DataContext as CustomerViewModel;
+            ViewModel.SelectedCustomer = (e.OriginalSource as FrameworkElement).DataContext as CustomerGroupViewModel;
 
         /// <summary>
         /// Opens the order detail page for the user to create an order for the selected customer.

@@ -194,49 +194,7 @@
                 <StackPanel Height="10"/>
 
                 <StackPanel>
-                    <toolkit:DataGrid
-                    CanUserReorderColumns="False"
-                    CanUserResizeColumns="False"
-                    AutoGenerateColumns="False"
-                    Sorting="DataGrid_Sorting"
-                    BorderThickness="0"
-                    GridLinesVisibility="None"
-                    ItemsSource="{x:Bind ViewModel.Customers}"
-                    SelectedItem="{x:Bind ViewModel.SelectedCustomer, Mode=TwoWay}"
-                    KeyDown="DataGrid_KeyDown"
-                    RightTapped="DataGrid_RightTapped"
-                    ContextFlyout="{StaticResource DataGridContextMenu}" Grid.ColumnSpan="2" Margin="1,0,-1,0">
-                        <toolkit:DataGrid.Columns>
-                            <toolkit:DataGridTextColumn
-                            Header="First name"
-                            Tag="FirstName"
-                            Binding="{Binding FirstName}"
-                            CanUserSort="False"
-                            HeaderStyle="{StaticResource DataGridNonSortableColumnHeaderStyle}"/>
-                            <toolkit:DataGridTextColumn
-                            Header="Last name"
-                            Tag="LastName"
-                            Binding="{Binding LastName}"/>
-                            <toolkit:DataGridTextColumn
-                            Header="Address"
-                            Binding="{Binding Address}"
-                            CanUserSort="False"
-                            HeaderStyle="{StaticResource DataGridNonSortableColumnHeaderStyle}"/>
-                            <toolkit:DataGridTextColumn
-                            Header="Company"
-                            Binding="{Binding Company}"/>
-                            <toolkit:DataGridTextColumn
-                            Header="Phone"
-                            Binding="{Binding Phone}"
-                            CanUserSort="False"
-                            HeaderStyle="{StaticResource DataGridNonSortableColumnHeaderStyle}"/>
-                            <toolkit:DataGridTextColumn
-                            Header="Email"
-                            Binding="{Binding Email}"
-                            CanUserSort="False"
-                            HeaderStyle="{StaticResource DataGridNonSortableColumnHeaderStyle}"/>
-                        </toolkit:DataGrid.Columns>
-                    </toolkit:DataGrid>
+                    
                 </StackPanel>
             </StackPanel >
            

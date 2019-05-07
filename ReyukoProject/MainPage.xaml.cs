@@ -2,6 +2,7 @@
 using ReyukoProject.Pages.Dashboard_Page;
 using ReyukoProject.Pages.Sales_Page;
 using ReyukoProject.Pages.Contact_Page;
+using ReyukoProject.Pages.Accounting_Page;
 using System;
 using System.Collections.ObjectModel;
 using Windows.UI.Xaml.Controls;
@@ -223,7 +224,7 @@ namespace ReyukoProject
                 {
                     NavView.SelectedItem = DashBoardMenuItem;
                 }
-                else if (e.SourcePageType == typeof(Sales_Invoice_New))
+                else if (e.SourcePageType == typeof(Sales_Invoice_Page))
                 {
                     NavView.SelectedItem = SalesMenuItem;
                 }
@@ -249,19 +250,26 @@ namespace ReyukoProject
                 {
 
                     if (menuTitle == "Production")
-                        AppFrame.Navigate(typeof(Sales_Invoice_New));
+                        AppFrame.Navigate(typeof(Sales_Invoice_Page));
                     else if (menuTitle == "Invoice")
-                        AppFrame.Navigate(typeof(Sales_Invoice_New));
+                        AppFrame.Navigate(typeof(Sales_Invoice_Page));
                     else if (menuTitle == "Document")
                         AppFrame.Navigate(typeof(Sales_Invoice_Page));
                     else if (menuTitle == "Delivery Order")
-                        AppFrame.Navigate(typeof(Sales_Invoice_New));
+                        AppFrame.Navigate(typeof(Sales_Invoice_Page));
                     else if (menuTitle == "Return")
-                        AppFrame.Navigate(typeof(Sales_Invoice_New));
+                        AppFrame.Navigate(typeof(Sales_Invoice_Page));
                 }
                 else if (m_strMenuTitle == DocumentMenuItemName)
                 {
 
+                }
+                else if(m_strMenuTitle == AccountingMenuItemName)
+                {
+                    if(menuTitle == "Currency Data")
+                    {
+                        AppFrame.Navigate(typeof(Currency_Data));
+                    }
                 }
                 else if (m_strMenuTitle == ContactMenuItemName)
                 {

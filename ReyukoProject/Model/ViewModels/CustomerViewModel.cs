@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace ReyukoProject.Model.ViewModels
 {
-    public class CustomerViewModel : BindableBase, IEditableObject
+    public class CustomerGroupViewModel : BindableBase, IEditableObject
     {
-        public CustomerViewModel(SalesOrder model = null) => Model = model ?? new SalesOrder();
+        public CustomerGroupViewModel(CustomerGroup model = null) => Model = model ?? new CustomerGroup();
 
-        private SalesOrder _model;
+        private CustomerGroup _model;
 
         /// <summary>
         /// Gets or sets the underlying Customer object.
         /// </summary>
-        public SalesOrder Model
+        public CustomerGroup Model
         {
             get => _model;
             set
@@ -208,7 +208,7 @@ namespace ReyukoProject.Model.ViewModels
             if (IsNewCustomer)
             {
                 IsNewCustomer = false;
-                App.ViewModel.Customers.Add(this);
+                App.ViewModel.Customer_Group.Add(this);
             }
 
             await App.Repository.Customers.UpsertAsync(Model);

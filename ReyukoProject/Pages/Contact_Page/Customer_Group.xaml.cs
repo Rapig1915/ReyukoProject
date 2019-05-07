@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ReyukoProject.Model.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,6 +23,8 @@ namespace ReyukoProject.Pages.Contact_Page
     /// </summary>
     public sealed partial class Customer_Group : Page
     {
+        public MainViewModel ViewModel => App.ViewModel;
+
         public Customer_Group()
         {
             this.InitializeComponent();
@@ -39,7 +42,7 @@ namespace ReyukoProject.Pages.Contact_Page
 
         private void Refresh_Clicked(object sender, RoutedEventArgs e)
         {
-
+            load_data();
         }
 
         private void Delete_Clicked(object sender, RoutedEventArgs e)
@@ -48,6 +51,11 @@ namespace ReyukoProject.Pages.Contact_Page
         }
 
         private void Play_Turtoiral_Clicked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void load_data()
         {
 
         }

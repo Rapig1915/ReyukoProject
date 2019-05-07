@@ -123,6 +123,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Currency.cs" />
     <Compile Include="Model\Customer.cs" />
     <Compile Include="Model\DbObject.cs" />
     <Compile Include="Model\LineItem.cs" />
@@ -131,21 +132,23 @@
     <Compile Include="Model\Product.cs" />
     <Compile Include="Model\ViewModels\BindableBase.cs" />
     <Compile Include="Model\ViewModels\Converters.cs" />
+    <Compile Include="Model\ViewModels\CurrencyViewModel.cs" />
     <Compile Include="Model\ViewModels\CustomerViewModel.cs" />
     <Compile Include="Model\ViewModels\MainViewModel.cs" />
-    <Compile Include="Pages\Contact_Page\Customer Group.xaml.cs">
-      <DependentUpon>Customer Group.xaml</DependentUpon>
+    <Compile Include="Pages\Accounting_Page\Currency_Data.xaml.cs">
+      <DependentUpon>Currency_Data.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Contact_Page\Customer_Group.xaml.cs">
+      <DependentUpon>Customer_Group.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Dashboard_Page\Dashboard_Page.xaml.cs">
       <DependentUpon>Dashboard_Page.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Sales_Page\Sales_Invoice_New.xaml.cs">
-      <DependentUpon>Sales_Invoice_New.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Sales_Page\Sales_Invoice_Page.xaml.cs">
       <DependentUpon>Sales_Invoice_Page.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ICurrencyRepository.cs" />
     <Compile Include="Repository\ICustomerRepository.cs" />
     <Compile Include="Repository\IOrderRepository.cs" />
     <Compile Include="Repository\IProductRepository.cs" />
@@ -191,6 +194,7 @@
     <Content Include="Assets\Icons\close2.png" />
     <Content Include="Assets\Icons\close3.png" />
     <Content Include="Assets\Icons\contact_drawer.png" />
+    <Content Include="Assets\Icons\currency.png" />
     <Content Include="Assets\Icons\customer.png" />
     <Content Include="Assets\Icons\customer_1.png" />
     <Content Include="Assets\Icons\dashboard.png" />
@@ -293,15 +297,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Pages\Contact_Page\Customer Group.xaml">
+    <Page Include="Pages\Accounting_Page\Currency_Data.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Contact_Page\Customer_Group.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Dashboard_Page\Dashboard_Page.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Pages\Sales_Page\Sales_Invoice_New.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -369,7 +373,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pages\Accounting_Page\" />
     <Folder Include="Pages\Calendar_Page\" />
     <Folder Include="Pages\Document_Page\" />
     <Folder Include="Pages\Inventory_Page\" />

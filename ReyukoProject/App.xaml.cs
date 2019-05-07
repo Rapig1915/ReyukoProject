@@ -2,44 +2,30 @@
 using ReyukoProject.Model.ViewModels;
 using ReyukoProject.Repository;
 using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Data.SqlClient;
 using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.Storage;
 using Windows.UI;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 namespace ReyukoProject
 {
+
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>
     sealed partial class App : Application
     {
-        // Connection string for using Windows Authentication.
-        public string connectionString =
-            @"Data Source=DESKTOP-8C7F4BP\SQLEXPRESS;Initial Catalog=Database Engine;Integrated Security=SSPI";
 
         // This is an example connection string for using SQL Server Authentication.
         // private string connectionString =
         //     @"Data Source=YourServerName\YourInstanceName;Initial Catalog=DatabaseName; User Id=XXXXX; Password=XXXXX";
 
-        
+
 
         public static MainViewModel ViewModel { get; } = new MainViewModel();
 
@@ -87,10 +73,6 @@ namespace ReyukoProject
                 Window.Current.Content = rootFrame;
             }
 
-            // Load the database.
-            UseSqlite();
-
-
             if (e.PrelaunchActivated == false)
             {
                 if (rootFrame.Content == null)
@@ -105,48 +87,7 @@ namespace ReyukoProject
             }
             
         }
-        /// <summary>
-        /// Load DB
-        /// </summary>
-        public void UseSqlite()
-        {
-            const string GetProductsQuery = "select ProductID, ProductName, QuantityPerUnit," +
-                   " UnitPrice, UnitsInStock, Products.CategoryID " +
-                   " from Products inner join Categories on Products.CategoryID = Categories.CategoryID " +
-                   " where Discontinued = 0";
-
-            
-            try
-            {
-                using (SqlConnection conn = new SqlConnection(connectionString))
-                {
-                    conn.Open();
-                    if (conn.State == System.Data.ConnectionState.Open)
-                    {
-                        using (SqlCommand cmd = conn.CreateCommand())
-                        {
-                            cmd.CommandText = GetProductsQuery;
-                            using (SqlDataReader reader = cmd.ExecuteReader())
-                            {
-                                while (reader.Read())
-                                {
-                                    
-                                    var ProductID = reader.GetInt32(0);
-                                    
-                                   
-                                }
-                            }
-                        }
-                    }
-                }
-                return;
-            }
-            catch (Exception eSql)
-            {
-                Debug.WriteLine("Exception: " + eSql.Message);
-            }
-            return;
-        }
+        
         /// <summary>
         /// Invoked when Navigation to a certain page fails
         /// </summary>

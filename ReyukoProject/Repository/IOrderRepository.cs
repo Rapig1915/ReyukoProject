@@ -25,6 +25,11 @@ namespace ReyukoProject.Repository
         Task<IEnumerable<Order>> GetAsync(string search);
 
         /// <summary>
+        /// Returns all the given currency's orders. 
+        /// </summary>
+        Task<IEnumerable<Order>> GetForCurrencyAsync(Guid currencyId);
+
+        /// <summary>
         /// Returns all the given customer's orders. 
         /// </summary>
         Task<IEnumerable<Order>> GetForCustomerAsync(Guid customerId);

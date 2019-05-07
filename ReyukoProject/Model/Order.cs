@@ -15,7 +15,7 @@ namespace ReyukoProject.Model
         /// <summary>
         /// Creates a new order for the given customer.
         /// </summary>
-        public Order(SalesOrder customer) : this()
+        public Order(CustomerGroup customer) : this()
         {
             Customer = customer;
             CustomerName = $"{customer.FirstName} {customer.LastName}";
@@ -30,7 +30,7 @@ namespace ReyukoProject.Model
         /// <summary>
         /// Gets or sets the customer placing the order.
         /// </summary>
-        public SalesOrder Customer { get; set; }
+        public CustomerGroup Customer { get; set; }
 
         /// <summary>
         /// Gets or sets the name of the customer placing the order.

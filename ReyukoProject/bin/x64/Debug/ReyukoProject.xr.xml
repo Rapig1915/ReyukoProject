@@ -3,14 +3,7 @@
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="Title" />
     <RootPropertyPathName Name="IconPath" />
-    <RootPropertyPathName Name="Term" />
-    <RootPropertyPathName Name="PaymentStatus" />
-    <RootPropertyPathName Name="Email" />
-    <RootPropertyPathName Name="Phone" />
-    <RootPropertyPathName Name="Company" />
-    <RootPropertyPathName Name="Address" />
-    <RootPropertyPathName Name="LastName" />
-    <RootPropertyPathName Name="FirstName" />
+    <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="Background" />
     <RootPropertyPathName Name="IsExpanded" />
     <RootPropertyPathName Name="Value" />
@@ -259,12 +252,12 @@
       <RootProperty Name="IsItemClickEnabled" />
       <RootProperty Name="ItemContainerStyle" />
       <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="ItemsSource" />
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="ItemsSource" />
       <RootEvent Name="ItemClick" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem" />
@@ -303,7 +296,6 @@
     </RootType>
     <RootType FullName="ReyukoProject.UserControls.CollapsibleSearchBox">
       <RootProperty Name="Width" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="CollapseWidth" />
       <RootEvent Name="Loaded" />
     </RootType>
@@ -319,7 +311,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
       <RootProperty Name="Label" />
       <RootProperty Name="Icon" />
-      <RootProperty Name="Visibility" />
       <RootProperty Name="IsEnabled" />
       <RootProperty Name="Flyout" />
       <RootEvent Name="Click" />
@@ -328,6 +319,7 @@
       <RootProperty Name="Foreground" />
       <RootProperty Name="UriSource" />
     </RootType>
+    <RootType FullName="ReyukoProject.Pages.Accounting_Page.Currency_Data" />
     <RootType FullName="ReyukoProject.Pages.Contact_Page.Customer_Group" />
     <RootType FullName="ReyukoProject.UserControls.Dashboard_ListControl">
       <RootProperty Name="HorizontalAlignment" />
@@ -344,106 +336,42 @@
       <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="ReyukoProject.Pages.Dashboard_Page.Dashboard_Page" />
+    <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyout">
+      <RootProperty Name="Items" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
       <RootProperty Name="Children" />
-      <RootProperty Name="Margin" />
-      <RootMethod Name="GetLeftOf" />
-      <RootMethod Name="SetLeftOf" />
-      <RootMethod Name="GetRightOf" />
-      <RootMethod Name="SetRightOf" />
       <RootMethod Name="GetAlignRightWithPanel" />
       <RootMethod Name="SetAlignRightWithPanel" />
+      <RootMethod Name="GetRightOf" />
+      <RootMethod Name="SetRightOf" />
       <RootMethod Name="GetAlignLeftWithPanel" />
       <RootMethod Name="SetAlignLeftWithPanel" />
       <RootMethod Name="GetBelow" />
       <RootMethod Name="SetBelow" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
-      <RootProperty Name="VerticalScrollBarVisibility" />
-      <RootProperty Name="VerticalScrollMode" />
-      <RootProperty Name="Content" />
-    </RootType>
-    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.Expander">
-      <RootProperty Name="IsExpanded" />
-      <RootProperty Name="HorizontalContentAlignment" />
-      <RootProperty Name="Header" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="HeaderStyle" />
-    </RootType>
-    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
-      <RootProperty Name="BorderThickness" />
-      <RootProperty Name="CanUserReorderColumns" />
-      <RootProperty Name="CanUserResizeColumns" />
-      <RootProperty Name="GridLinesVisibility" />
-      <RootProperty Name="IsReadOnly" />
-      <RootProperty Name="AutoGenerateColumns" />
-      <RootProperty Name="ItemsSource" />
-      <RootProperty Name="SelectedItem" />
-      <RootProperty Name="Columns" />
-      <RootProperty Name="ContextFlyout" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="DragIndicatorStyle" />
-      <RootProperty Name="DropLocationIndicatorStyle" />
-      <RootProperty Name="HorizontalGridLinesBrush" />
-      <RootProperty Name="VerticalGridLinesBrush" />
-      <RootEvent Name="Sorting" />
-      <RootEvent Name="KeyDown" />
-      <RootEvent Name="RightTapped" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="IsIndeterminate" />
-      <RootProperty Name="Visibility" />
-    </RootType>
-    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridTemplateColumn">
-      <RootProperty Name="Header" />
-      <RootProperty Name="Tag" />
-      <RootProperty Name="CellTemplate" />
-    </RootType>
-    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridTextColumn">
-      <RootProperty Name="Header" />
-      <RootProperty Name="Tag" />
-      <RootProperty Name="Binding" />
-      <RootProperty Name="CanUserSort" />
-      <RootProperty Name="HeaderStyle" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
-      <RootProperty Name="Content" />
-      <RootProperty Name="Margin" />
-      <RootEvent Name="Click" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Header" />
-      <RootProperty Name="IsReadOnly" />
-      <RootProperty Name="Text" />
-      <RootProperty Name="MinWidth" />
-      <RootProperty Name="Visibility" />
-      <RootProperty Name="InputScope" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="Width" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.AppBarSeparator">
-      <RootProperty Name="Visibility" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Width" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CalendarDatePicker" />
+    <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyoutSeparator" />
     <RootType FullName="ReyukoProject.StateTriggers.MobileScreenTrigger">
       <RootProperty Name="InteractionMode" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.AdaptiveTrigger">
       <RootProperty Name="MinWindowWidth" />
     </RootType>
-    <RootType FullName="ReyukoProject.Pages.Sales_Page.Sales_Invoice_New" />
-    <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyout">
-      <RootProperty Name="Items" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
-      <RootProperty Name="Width" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.CalendarDatePicker" />
-    <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyoutSeparator" />
     <RootType FullName="ReyukoProject.Pages.Sales_Page.Sales_Invoice_Page" />
     <RootType FullName="System.String" />
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
+      <RootProperty Name="DragIndicatorStyle" />
+      <RootProperty Name="DropLocationIndicatorStyle" />
+      <RootProperty Name="HorizontalGridLinesBrush" />
+      <RootProperty Name="VerticalGridLinesBrush" />
+    </RootType>
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridCell" />
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.Primitives.DataGridColumnHeader">
       <RootProperty Name="SeparatorBrush" />
@@ -543,6 +471,9 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="VerticalContentAlignment" />
       <RootProperty Name="RenderTransform" />
+    </RootType>
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.Expander">
+      <RootProperty Name="HeaderStyle" />
     </RootType>
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.HeaderedContentControl">
       <RootProperty Name="Header" />

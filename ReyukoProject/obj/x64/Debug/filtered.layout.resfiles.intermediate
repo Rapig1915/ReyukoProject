@@ -17,6 +17,7 @@ Assets\Icons\close.png
 Assets\Icons\close2.png
 Assets\Icons\close3.png
 Assets\Icons\contact_drawer.png
+Assets\Icons\currency.png
 Assets\Icons\customer.png
 Assets\Icons\customer_1.png
 Assets\Icons\dashboard.png
@@ -110,9 +111,9 @@ Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
 App.xbf
 MainPage.xbf
-Pages\Contact_Page\Customer Group.xbf
+Pages\Accounting_Page\Currency_Data.xbf
+Pages\Contact_Page\Customer_Group.xbf
 Pages\Dashboard_Page\Dashboard_Page.xbf
-Pages\Sales_Page\Sales_Invoice_New.xbf
 Pages\Sales_Page\Sales_Invoice_Page.xbf
 ReyukoProject.xr.xml
 Styles\ContentsStyle.xbf
