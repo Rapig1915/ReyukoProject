@@ -50,6 +50,40 @@ namespace ReyukoProject.Model.ViewModels
                 }
             }
         }
+        // <summary>
+        /// Gets or sets the currency code.
+        /// </summary>
+        public string Code
+        {
+            get => Model.Code;
+            set
+            {
+                if (value != Model.Code)
+                {
+                    Model.Code = value;
+                    IsModified = true;
+                    OnPropertyChanged();
+                    OnPropertyChanged(nameof(Code));
+                }
+            }
+        }
+        // <summary>
+        /// Gets or sets the currency symbol.
+        /// </summary>
+        public string Symbol
+        {
+            get => Model.Symbol;
+            set
+            {
+                if (value != Model.Symbol)
+                {
+                    Model.Code = value;
+                    IsModified = true;
+                    OnPropertyChanged();
+                    OnPropertyChanged(nameof(Symbol));
+                }
+            }
+        }
 
         /// <summary>
         /// Gets or sets a value that indicates whether the underlying model has been modified. 

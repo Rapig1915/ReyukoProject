@@ -135,6 +135,12 @@
     <Compile Include="Model\ViewModels\CurrencyViewModel.cs" />
     <Compile Include="Model\ViewModels\CustomerViewModel.cs" />
     <Compile Include="Model\ViewModels\MainViewModel.cs" />
+    <Compile Include="Pages\Accounting_Page\Contact_Data_New_Add_Page.xaml.cs">
+      <DependentUpon>Contact_Data_New_Add_Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Accounting_Page\Contact_Data_New_Page.xaml.cs">
+      <DependentUpon>Contact_Data_New_Page.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Accounting_Page\Currency_Data.xaml.cs">
       <DependentUpon>Currency_Data.xaml</DependentUpon>
     </Compile>
@@ -296,6 +302,14 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Accounting_Page\Contact_Data_New_Add_Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Accounting_Page\Contact_Data_New_Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Accounting_Page\Currency_Data.xaml">
       <SubType>Designer</SubType>

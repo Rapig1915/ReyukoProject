@@ -462,6 +462,12 @@
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Add_Page.xbf">
+      <PackagePath>Pages\Accounting_Page\Contact_Data_New_Add_Page.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Page.xbf">
+      <PackagePath>Pages\Accounting_Page\Contact_Data_New_Page.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Accounting_Page\Currency_Data.xbf">
       <PackagePath>Pages\Accounting_Page\Currency_Data.xbf</PackagePath>
     </AppxPackagedFile>

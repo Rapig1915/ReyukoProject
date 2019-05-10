@@ -111,6 +111,8 @@ Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
 App.xbf
 MainPage.xbf
+Pages\Accounting_Page\Contact_Data_New_Add_Page.xbf
+Pages\Accounting_Page\Contact_Data_New_Page.xbf
 Pages\Accounting_Page\Currency_Data.xbf
 Pages\Contact_Page\Customer_Group.xbf
 Pages\Dashboard_Page\Dashboard_Page.xbf

@@ -1,13 +1,11 @@
 ﻿<Page
     x:Class="ReyukoProject.Pages.Accounting_Page.Currency_Data"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:ReyukoProject.Pages.Accounting_Page"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    xmlns:model="using:ReyukoProject.Model.ViewModels"
     xmlns:uc="using:ReyukoProject.UserControls"
+    mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
@@ -15,7 +13,7 @@
             <RowDefinition Height="40"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <StackPanel Orientation="Horizontal" Grid.Row="0">
+        <RelativePanel Grid.Row="0">
 
             <TextBlock
                 x:Name="PageTitle"
@@ -25,6 +23,8 @@
                 x:Name="mainCommandBar"
                 Background="Transparent"
                 DefaultLabelPosition="Right"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.RightOf="PageTitle"
                 Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Stretch">
                 <AppBarButton
                     Click="New_Clicked"
@@ -85,7 +85,7 @@
                 </AppBarButton>
 
             </CommandBar>
-        </StackPanel>
+        </RelativePanel>
         <Grid
                 Grid.Row="1"
                 

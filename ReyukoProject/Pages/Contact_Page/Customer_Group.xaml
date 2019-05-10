@@ -14,7 +14,7 @@
             <RowDefinition Height="40"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <StackPanel Orientation="Horizontal" Grid.Row="0">
+        <RelativePanel Grid.Row="0">
 
             <TextBlock
                 x:Name="PageTitle"
@@ -24,6 +24,8 @@
                 x:Name="mainCommandBar"
                 Background="Transparent"
                 DefaultLabelPosition="Right"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.RightOf="PageTitle"
                 Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Stretch">
                 <AppBarButton
                     Click="New_Clicked"
@@ -68,7 +70,7 @@
                 </AppBarButton>
 
             </CommandBar>
-        </StackPanel>
+        </RelativePanel>
         <Grid
                 Grid.Row="1"
                 

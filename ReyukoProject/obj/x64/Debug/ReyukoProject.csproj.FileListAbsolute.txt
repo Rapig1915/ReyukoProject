@@ -165,3 +165,13 @@ D:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\Pages\Accounting_Page\Currency_
 D:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\Pages\Contact_Page\Customer_Group.xbf
 D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Accounting_Page\Currency_Data.xbf
 D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Contact_Page\Customer_Group.xbf
+D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Page.xbf
+D:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Page.g.i.cs
+D:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Page.g.cs
+D:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Page.xaml
+D:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Page.xbf
+D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Add_Page.xbf
+D:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Add_Page.g.i.cs
+D:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Add_Page.g.cs
+D:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Add_Page.xaml
+D:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Add_Page.xbf

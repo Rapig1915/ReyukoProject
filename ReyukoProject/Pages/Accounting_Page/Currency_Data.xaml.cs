@@ -31,16 +31,9 @@ namespace ReyukoProject.Pages.Accounting_Page
         public Currency_Data()
         {
             this.InitializeComponent();
-            LoadModel();
-        }
-        private void LoadModel()
-        {
 
         }
-
-
-
-
+      
         /// <summary>
         /// Menu flyout click control for .
         /// </summary>
@@ -51,8 +44,14 @@ namespace ReyukoProject.Pages.Accounting_Page
                 Frame.Navigate(typeof(CustomerDetailPage), ViewModel.SelectedCustomer.Model.Id,
                     new DrillInNavigationTransitionInfo());
             }*/
+            //Frame.Navigate(typeof(Currency_Data_New_Page), null, new Currency_Data_New_Page());
+            NewDialogAsync();
         }
-
+        private async System.Threading.Tasks.Task NewDialogAsync()
+        {
+            Contact_Data_New_Page.ShowPopup("Your content here");
+        }
+     
         /// <summary>
         /// Menu flyout click control for .
         /// </summary>

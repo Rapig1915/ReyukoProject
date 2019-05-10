@@ -1,0 +1,59 @@
+﻿<UserControl
+    x:Class="ReyukoProject.Pages.Accounting_Page.Contact_Data_New_Add_Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:uc="using:ReyukoProject.UserControls"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <Grid HorizontalAlignment="Left" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row ="0" Orientation="Horizontal" Spacing="10">
+            <TextBlock  
+                Margin="10,0,0,0"
+                x:Name="title" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Kurs" FontSize="20" TextAlignment="Center" FontWeight="Bold"/>
+            <StackPanel Width="170"/>
+            <Button Click="Save_Clicked" >
+                <StackPanel Orientation="Horizontal">
+                    <Image Width="15" Source="/Assets/Icons/save.png"/>
+                    <TextBlock Text="Save"/>
+                </StackPanel>
+            </Button>
+            <Button Click="Cancel_Click" >
+                <StackPanel Orientation="Horizontal">
+                    <Image Width="15" Source="/Assets/Icons/close.png"/>
+                    <TextBlock Text="Cancel"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+
+        <StackPanel Grid.Row ="1" Spacing="10" Margin="10, 10, 10, 10">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Currency"/>
+                <StackPanel Width="100"/>
+                <TextBlock Name="txtCurrency" Text=""/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Date"/>
+                <StackPanel Width="120"/>
+                <TextBlock Text=":"/>
+                <CalendarDatePicker Width="210"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Ex Rate"/>
+                <StackPanel Width="105"/>
+                <TextBlock Text=":"/>
+                <TextBox Name="txtRate" Width="210"/>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</UserControl>

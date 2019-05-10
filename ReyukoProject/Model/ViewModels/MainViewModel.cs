@@ -38,9 +38,32 @@ namespace ReyukoProject.Model.ViewModels
                             {
                                 while (reader.Read())
                                 {
-                                    var currencyName = reader.GetString(2);
                                     Currency curreny = new Currency();
-                                    curreny.Name = currencyName;
+                                    if (!reader.IsDBNull(1))
+                                    {
+                                        curreny.Active_Check = reader.GetInt32(1);
+                                    }
+                                    if (!reader.IsDBNull(2))
+                                    {
+                                        curreny.Name = reader.GetString(2);
+                                    }
+                                    if (!reader.IsDBNull(3))
+                                    {
+                                        curreny.Code = reader.GetString(3);
+                                    }
+                                    if (!reader.IsDBNull(4))
+                                    {
+                                        curreny.Symbol = reader.GetString(4);
+                                    }
+                                    if (!reader.IsDBNull(5))
+                                    {
+                                        curreny.DateUpdate = reader.GetString(5);
+                                    }
+                                    if (!reader.IsDBNull(6))
+                                    {
+                                        curreny.Exchange = reader.GetString(6);
+                                    }
+                                    
                                     Currencies.Add(new CurrencyViewModel(curreny));
                                 }
                             }
