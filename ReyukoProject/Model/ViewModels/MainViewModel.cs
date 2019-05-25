@@ -14,18 +14,18 @@ namespace ReyukoProject.Model.ViewModels
     {
         public static SqlConnection MyDB { get; set; }
         // Connection string for using Windows Authentication.
-        public string connectionString =
-            @"Data Source=localhost;Initial Catalog=Reyuko_DB;Integrated Security=False;User ID=admin;Password=admin";
-
+        //public string connectionString = @"Data Source=localhost;Initial Catalog=Reyuko_DB;User ID=sa;Password=sa";
+        public string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=Reyuko_DB;User ID=admin;Password=admin";
 
         /// <summary>
-        /// Load DB
+        /// Load DBt
         /// </summary>
         public void UseSqlite()
         {
             const string sqlCmd = "select * from dbo.currency";
             try
             {
+
                 using (MyDB = new SqlConnection(connectionString))
                 {
 

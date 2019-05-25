@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-8C7F4BP</Machine>
-    <WindowsUser>danie</WindowsUser>
+    <Machine>DESKTOP-2VC3LE2</Machine>
+    <WindowsUser>USER</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>aa7e4f72-f6f7-4710-996f-2f9b08be4919</PackageIdentityName>
     <PackageIdentityPublisher>CN=danie</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>9FD7C5BE4B63C17F482D2F53A2335F8AA80D320297C33A54EE1FD72E1E72BC2D</RegisteredManifestChecksum>
+    <LayoutDir>F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>5097E4714042785929DB2AB1F1A1C58BA360F0A9DCEBF770741C506A84D1E43D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>aa7e4f72-f6f7-4710-996f-2f9b08be4919_1.0.0.0_x64__t600xgmvk2pe2</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>aa7e4f72-f6f7-4710-996f-2f9b08be4919_t600xgmvk2pe2!App</RegisteredUserModeAppID>
     <RegisteredPackageID>aa7e4f72-f6f7-4710-996f-2f9b08be4919</RegisteredPackageID>
@@ -27,941 +27,941 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T20:14:13.937</Modified>
+      <Modified>2019-05-25T15:55:18.086</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\ReyukoProject.exe">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\ReyukoProject.exe">
       <PackagePath>entrypoint\ReyukoProject.exe</PackagePath>
-      <Modified>2019-05-10T20:14:12.074</Modified>
+      <Modified>2019-05-25T15:55:16.045</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
-      <Modified>2018-10-05T14:30:08.000</Modified>
+      <Modified>2018-10-06T06:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\colorcode.uwp\2.0.6\lib\uap10.0\ColorCode.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\colorcode.uwp\2.0.6\lib\uap10.0\ColorCode.UWP.dll">
       <PackagePath>ColorCode.UWP.dll</PackagePath>
-      <Modified>2018-10-05T14:30:16.000</Modified>
+      <Modified>2018-10-06T06:30:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.graph\1.8.1\lib\netstandard1.1\Microsoft.Graph.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.graph\1.8.1\lib\netstandard1.1\Microsoft.Graph.dll">
       <PackagePath>Microsoft.Graph.dll</PackagePath>
-      <Modified>2018-03-26T02:13:56.000</Modified>
+      <Modified>2018-03-26T18:13:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.graph.core\1.8.1\lib\netstandard1.1\Microsoft.Graph.Core.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.graph.core\1.8.1\lib\netstandard1.1\Microsoft.Graph.Core.dll">
       <PackagePath>Microsoft.Graph.Core.dll</PackagePath>
-      <Modified>2018-03-23T05:10:40.000</Modified>
+      <Modified>2018-03-23T21:10:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.identity.client\2.7.0\lib\uap10.0\Microsoft.Identity.Client.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.identity.client\2.7.0\lib\uap10.0\Microsoft.Identity.Client.dll">
       <PackagePath>Microsoft.Identity.Client.dll</PackagePath>
-      <Modified>2019-01-11T16:17:26.000</Modified>
+      <Modified>2019-01-12T09:17:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.13.7\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.13.7\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll">
       <PackagePath>Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll</PackagePath>
-      <Modified>2016-11-01T07:39:34.000</Modified>
+      <Modified>2016-11-01T23:39:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.13.7\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.13.7\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
       <PackagePath>Microsoft.IdentityModel.Clients.ActiveDirectory.dll</PackagePath>
-      <Modified>2016-11-01T07:39:34.000</Modified>
+      <Modified>2016-11-01T23:39:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.powerbi.api\2.0.12\lib\portable-net45+win+wpa81+MonoAndroid10+MonoTouch10+xamarinios10+xamarinmac20\Microsoft.PowerBI.Api.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.powerbi.api\2.0.12\lib\portable-net45+win+wpa81+MonoAndroid10+MonoTouch10+xamarinios10+xamarinmac20\Microsoft.PowerBI.Api.dll">
       <PackagePath>Microsoft.PowerBI.Api.dll</PackagePath>
-      <Modified>2018-04-24T05:39:00.000</Modified>
+      <Modified>2018-04-24T21:39:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.rest.clientruntime\2.0.1\lib\portable-net45+win+wpa81\Microsoft.Rest.ClientRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.rest.clientruntime\2.0.1\lib\portable-net45+win+wpa81\Microsoft.Rest.ClientRuntime.dll">
       <PackagePath>Microsoft.Rest.ClientRuntime.dll</PackagePath>
-      <Modified>2016-02-03T04:37:04.000</Modified>
+      <Modified>2016-02-03T21:37:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit\5.1.1\lib\netstandard2.0\Microsoft.Toolkit.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit\5.1.1\lib\netstandard2.0\Microsoft.Toolkit.dll">
       <PackagePath>Microsoft.Toolkit.dll</PackagePath>
-      <Modified>2019-03-15T13:15:26.000</Modified>
+      <Modified>2019-03-16T05:15:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.parsers\5.1.1\lib\netstandard2.0\Microsoft.Toolkit.Parsers.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.parsers\5.1.1\lib\netstandard2.0\Microsoft.Toolkit.Parsers.dll">
       <PackagePath>Microsoft.Toolkit.Parsers.dll</PackagePath>
-      <Modified>2019-03-15T13:15:28.000</Modified>
+      <Modified>2019-03-16T05:15:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.services\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Services.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.services\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Services.dll">
       <PackagePath>Microsoft.Toolkit.Services.dll</PackagePath>
-      <Modified>2019-02-12T13:34:04.000</Modified>
+      <Modified>2019-02-13T06:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
-      <Modified>2019-03-15T13:15:34.000</Modified>
+      <Modified>2019-03-16T05:15:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
-      <Modified>2019-03-15T13:15:54.000</Modified>
+      <Modified>2019-03-16T05:15:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.animations\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Animations.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.animations\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Animations.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Animations.dll</PackagePath>
-      <Modified>2019-03-15T13:15:56.000</Modified>
+      <Modified>2019-03-16T05:15:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.dll</PackagePath>
-      <Modified>2019-03-15T13:49:22.000</Modified>
+      <Modified>2019-03-16T05:49:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
-      <Modified>2019-02-12T13:34:32.000</Modified>
+      <Modified>2019-02-13T06:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph.dll</PackagePath>
-      <Modified>2019-02-12T13:34:34.000</Modified>
+      <Modified>2019-02-13T06:34:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
-      <Modified>2016-02-22T04:59:50.000</Modified>
+      <Modified>2016-02-22T21:59:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
       <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
-      <Modified>2016-02-22T04:59:50.000</Modified>
+      <Modified>2016-02-22T21:59:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2017-06-18T04:57:10.000</Modified>
+      <Modified>2017-06-18T20:57:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\robmikh.compositionsurfacefactory\0.7.3\runtimes\win10-x64\native\Robmikh.CompositionSurfaceFactory.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\robmikh.compositionsurfacefactory\0.7.3\runtimes\win10-x64\native\Robmikh.CompositionSurfaceFactory.dll">
       <PackagePath>Robmikh.CompositionSurfaceFactory.dll</PackagePath>
-      <Modified>2017-09-27T10:20:54.000</Modified>
+      <Modified>2017-09-28T02:20:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.7\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2019-03-05T03:59:14.000</Modified>
+      <Modified>2019-03-13T05:23:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\win2d.uwp\1.21.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\win2d.uwp\1.21.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
-      <Modified>2017-06-25T18:01:44.000</Modified>
+      <Modified>2017-06-26T10:01:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\robmikh.compositionsurfacefactory\0.7.3\lib\uap10.0\Robmikh.CompositionSurfaceFactory.winmd">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\robmikh.compositionsurfacefactory\0.7.3\lib\uap10.0\Robmikh.CompositionSurfaceFactory.winmd">
       <PackagePath>Robmikh.CompositionSurfaceFactory.winmd</PackagePath>
-      <Modified>2017-09-27T10:20:52.000</Modified>
+      <Modified>2017-09-28T02:20:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\win2d.uwp\1.21.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\win2d.uwp\1.21.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
-      <Modified>2017-06-25T18:01:44.000</Modified>
+      <Modified>2017-06-26T10:01:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2018-10-22T16:33:40.000</Modified>
+      <Modified>2018-10-23T08:33:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\accounting_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\accounting_drawer.png">
       <PackagePath>Assets\Icons\accounting_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.537</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\black_plus.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\black_plus.png">
       <PackagePath>Assets\Icons\black_plus.png</PackagePath>
-      <Modified>2019-04-30T19:12:48.861</Modified>
+      <Modified>2019-04-30T19:12:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calculate.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calculate.png">
       <PackagePath>Assets\Icons\calculate.png</PackagePath>
-      <Modified>2019-04-30T19:12:48.889</Modified>
+      <Modified>2019-04-30T19:12:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calendar.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calendar.png">
       <PackagePath>Assets\Icons\calendar.png</PackagePath>
-      <Modified>2019-04-30T19:12:48.919</Modified>
+      <Modified>2019-04-30T19:12:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calendar_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calendar_1.png">
       <PackagePath>Assets\Icons\calendar_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.573</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calendar_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\calendar_drawer.png">
       <PackagePath>Assets\Icons\calendar_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.589</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\chooseFile.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\chooseFile.png">
       <PackagePath>Assets\Icons\chooseFile.png</PackagePath>
-      <Modified>2019-04-30T19:12:48.949</Modified>
+      <Modified>2019-04-30T19:12:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\close.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\close.png">
       <PackagePath>Assets\Icons\close.png</PackagePath>
-      <Modified>2019-04-30T19:12:48.969</Modified>
+      <Modified>2019-04-30T19:12:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\close2.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\close2.png">
       <PackagePath>Assets\Icons\close2.png</PackagePath>
-      <Modified>2019-04-30T19:12:48.999</Modified>
+      <Modified>2019-04-30T19:12:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\close3.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\close3.png">
       <PackagePath>Assets\Icons\close3.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.019</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\contact_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\contact_drawer.png">
       <PackagePath>Assets\Icons\contact_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.606</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\currency.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\currency.png">
       <PackagePath>Assets\Icons\currency.png</PackagePath>
-      <Modified>2019-05-07T18:30:21.672</Modified>
+      <Modified>2019-05-07T18:30:21.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\customer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\customer.png">
       <PackagePath>Assets\Icons\customer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.622</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\customer_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\customer_1.png">
       <PackagePath>Assets\Icons\customer_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.638</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\dashboard.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\dashboard.png">
       <PackagePath>Assets\Icons\dashboard.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.652</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\dashboard_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\dashboard_1.png">
       <PackagePath>Assets\Icons\dashboard_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.666</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\dashboard_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\dashboard_drawer.png">
       <PackagePath>Assets\Icons\dashboard_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.681</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\delete.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\delete.png">
       <PackagePath>Assets\Icons\delete.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.029</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\detail.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\detail.png">
       <PackagePath>Assets\Icons\detail.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.029</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\document.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\document.png">
       <PackagePath>Assets\Icons\document.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.695</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\document_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\document_1.png">
       <PackagePath>Assets\Icons\document_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.704</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\document_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\document_drawer.png">
       <PackagePath>Assets\Icons\document_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.714</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\download.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\download.png">
       <PackagePath>Assets\Icons\download.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.039</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\edit.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\edit.png">
       <PackagePath>Assets\Icons\edit.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.039</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\excute.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\excute.png">
       <PackagePath>Assets\Icons\excute.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.039</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\finance.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\finance.png">
       <PackagePath>Assets\Icons\finance.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.724</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\finance_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\finance_1.png">
       <PackagePath>Assets\Icons\finance_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.744</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\find.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\find.png">
       <PackagePath>Assets\Icons\find.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.049</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\fullscreen.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\fullscreen.png">
       <PackagePath>Assets\Icons\fullscreen.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.049</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\green_plus.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\green_plus.png">
       <PackagePath>Assets\Icons\green_plus.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.055</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\icon.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\icon.png">
       <PackagePath>Assets\Icons\icon.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.754</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\inventory.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\inventory.png">
       <PackagePath>Assets\Icons\inventory.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.754</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\inventory_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\inventory_1.png">
       <PackagePath>Assets\Icons\inventory_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.754</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\inventory_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\inventory_drawer.png">
       <PackagePath>Assets\Icons\inventory_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.764</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\katalog.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\katalog.png">
       <PackagePath>Assets\Icons\katalog.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.768</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\katalog_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\katalog_1.png">
       <PackagePath>Assets\Icons\katalog_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.771</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\kategori.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\kategori.png">
       <PackagePath>Assets\Icons\kategori.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.774</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\kategori_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\kategori_1.png">
       <PackagePath>Assets\Icons\kategori_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.777</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\menu_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\menu_drawer.png">
       <PackagePath>Assets\Icons\menu_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.779</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\money.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\money.png">
       <PackagePath>Assets\Icons\money.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.782</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\money_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\money_1.png">
       <PackagePath>Assets\Icons\money_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.786</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\more.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\more.png">
       <PackagePath>Assets\Icons\more.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.059</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\new.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\new.png">
       <PackagePath>Assets\Icons\new.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.059</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\notes.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\notes.png">
       <PackagePath>Assets\Icons\notes.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.059</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\order.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\order.png">
       <PackagePath>Assets\Icons\order.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.789</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\order_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\order_1.png">
       <PackagePath>Assets\Icons\order_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.792</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\payment.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\payment.png">
       <PackagePath>Assets\Icons\payment.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.059</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\payment_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\payment_drawer.png">
       <PackagePath>Assets\Icons\payment_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.796</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\pembelian.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\pembelian.png">
       <PackagePath>Assets\Icons\pembelian.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.798</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\pembelian_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\pembelian_1.png">
       <PackagePath>Assets\Icons\pembelian_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.800</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\personil.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\personil.png">
       <PackagePath>Assets\Icons\personil.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.805</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\personil_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\personil_1.png">
       <PackagePath>Assets\Icons\personil_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.807</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\pos.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\pos.png">
       <PackagePath>Assets\Icons\pos.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.809</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\posted.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\posted.png">
       <PackagePath>Assets\Icons\posted.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.069</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\pos_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\pos_1.png">
       <PackagePath>Assets\Icons\pos_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.812</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\pos_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\pos_drawer.png">
       <PackagePath>Assets\Icons\pos_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.814</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\ppob.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\ppob.png">
       <PackagePath>Assets\Icons\ppob.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.814</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\ppob_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\ppob_1.png">
       <PackagePath>Assets\Icons\ppob_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.814</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\print.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\print.png">
       <PackagePath>Assets\Icons\print.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.069</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\print2.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\print2.png">
       <PackagePath>Assets\Icons\print2.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.069</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\print3.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\print3.png">
       <PackagePath>Assets\Icons\print3.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.079</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\product_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\product_drawer.png">
       <PackagePath>Assets\Icons\product_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.814</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\produk.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\produk.png">
       <PackagePath>Assets\Icons\produk.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.824</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\produk_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\produk_1.png">
       <PackagePath>Assets\Icons\produk_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.824</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\purchasing_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\purchasing_drawer.png">
       <PackagePath>Assets\Icons\purchasing_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.824</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\red_plus.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\red_plus.png">
       <PackagePath>Assets\Icons\red_plus.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.079</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\refresh.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\refresh.png">
       <PackagePath>Assets\Icons\refresh.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.079</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\report.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\report.png">
       <PackagePath>Assets\Icons\report.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.824</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\reporting_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\reporting_drawer.png">
       <PackagePath>Assets\Icons\reporting_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.834</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\report_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\report_1.png">
       <PackagePath>Assets\Icons\report_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.834</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\sales-proposal_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\sales-proposal_drawer.png">
       <PackagePath>Assets\Icons\sales-proposal_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.844</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\sales.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\sales.png">
       <PackagePath>Assets\Icons\sales.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.834</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\sales_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\sales_1.png">
       <PackagePath>Assets\Icons\sales_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.844</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\sales_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\sales_drawer.png">
       <PackagePath>Assets\Icons\sales_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.844</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\save.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\save.png">
       <PackagePath>Assets\Icons\save.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.089</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\save2.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\save2.png">
       <PackagePath>Assets\Icons\save2.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.089</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\save3.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\save3.png">
       <PackagePath>Assets\Icons\save3.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.089</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\search.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\search.png">
       <PackagePath>Assets\Icons\search.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.099</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\search_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\search_1.png">
       <PackagePath>Assets\Icons\search_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.844</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\services_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\services_drawer.png">
       <PackagePath>Assets\Icons\services_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.854</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\setting.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\setting.png">
       <PackagePath>Assets\Icons\setting.png</PackagePath>
-      <Modified>2019-05-07T18:30:26.865</Modified>
+      <Modified>2019-05-07T18:30:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\setting_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\setting_1.png">
       <PackagePath>Assets\Icons\setting_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.854</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\setting_drawer.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\setting_drawer.png">
       <PackagePath>Assets\Icons\setting_drawer.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.864</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\suplier.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\suplier.png">
       <PackagePath>Assets\Icons\suplier.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.864</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\suplier_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\suplier_1.png">
       <PackagePath>Assets\Icons\suplier_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.864</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\T.product.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\T.product.png">
       <PackagePath>Assets\Icons\T.product.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.911</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\T.product_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\T.product_1.png">
       <PackagePath>Assets\Icons\T.product_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.914</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\transaktion.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\transaktion.png">
       <PackagePath>Assets\Icons\transaktion.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.919</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\transaktion_1.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\transaktion_1.png">
       <PackagePath>Assets\Icons\transaktion_1.png</PackagePath>
-      <Modified>2019-04-30T09:34:45.919</Modified>
+      <Modified>2019-04-30T09:34:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\tutorial.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\tutorial.png">
       <PackagePath>Assets\Icons\tutorial.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.103</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\view_as_chart.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\view_as_chart.png">
       <PackagePath>Assets\Icons\view_as_chart.png</PackagePath>
-      <Modified>2019-04-30T19:12:49.106</Modified>
+      <Modified>2019-04-30T19:12:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-30T11:39:55.237</Modified>
+      <Modified>2019-04-30T11:39:55.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-30T11:39:55.237</Modified>
+      <Modified>2019-04-30T11:39:55.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-30T11:39:55.237</Modified>
+      <Modified>2019-04-30T11:39:55.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-30T11:39:55.237</Modified>
+      <Modified>2019-04-30T11:39:55.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-30T11:39:55.237</Modified>
+      <Modified>2019-04-30T11:39:55.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-04-26T03:56:15.585</Modified>
+      <Modified>2019-04-26T03:56:15.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-30T11:39:55.237</Modified>
+      <Modified>2019-04-30T11:39:55.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-26T03:56:15.585</Modified>
+      <Modified>2019-04-26T03:56:15.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-26T03:56:15.585</Modified>
+      <Modified>2019-04-26T03:56:15.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-26T03:56:15.585</Modified>
+      <Modified>2019-04-26T03:56:15.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-26T03:56:15.585</Modified>
+      <Modified>2019-04-26T03:56:15.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-26T03:56:15.585</Modified>
+      <Modified>2019-04-26T03:56:15.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\genericfile.png">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\genericfile.png">
       <PackagePath>genericfile.png</PackagePath>
-      <Modified>2019-02-12T13:24:40.000</Modified>
+      <Modified>2019-02-13T06:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\person.png">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\person.png">
       <PackagePath>person.png</PackagePath>
-      <Modified>2019-02-12T13:24:40.000</Modified>
+      <Modified>2019-02-13T06:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\photo.png">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\photo.png">
       <PackagePath>photo.png</PackagePath>
-      <Modified>2019-02-12T13:24:40.000</Modified>
+      <Modified>2019-02-13T06:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-04-30T03:52:19.656</Modified>
+      <Modified>2019-04-30T03:52:19.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\folder.svg">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\folder.svg">
       <PackagePath>folder.svg</PackagePath>
-      <Modified>2019-02-12T13:24:40.000</Modified>
+      <Modified>2019-02-13T06:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\PowerBIEmbedded\Embed\EmbedReportFrame.html">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\PowerBIEmbedded\Embed\EmbedReportFrame.html">
       <PackagePath>EmbedReportFrame.html</PackagePath>
-      <Modified>2019-02-12T13:24:40.000</Modified>
+      <Modified>2019-02-13T06:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\PowerBIEmbedded\Embed\ReportContainer.html">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\PowerBIEmbedded\Embed\ReportContainer.html">
       <PackagePath>ReportContainer.html</PackagePath>
-      <Modified>2019-02-12T13:24:40.000</Modified>
+      <Modified>2019-02-13T06:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\PowerBIEmbedded\Embed\powerbi.min.js">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\PowerBIEmbedded\Embed\powerbi.min.js">
       <PackagePath>powerbi.min.js</PackagePath>
-      <Modified>2019-02-12T13:24:40.000</Modified>
+      <Modified>2019-02-13T06:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\ReyukoProject.xr.xml">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\ReyukoProject.xr.xml">
       <PackagePath>ReyukoProject.xr.xml</PackagePath>
-      <Modified>2019-05-10T20:06:01.781</Modified>
+      <Modified>2019-05-10T20:06:01.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.487</Modified>
+      <Modified>2019-05-25T15:55:15.794</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.497</Modified>
+      <Modified>2019-05-25T15:55:15.804</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Add_Page.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Add_Page.xbf">
       <PackagePath>Pages\Accounting_Page\Contact_Data_New_Add_Page.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.527</Modified>
+      <Modified>2019-05-25T15:55:15.825</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Page.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Page.xbf">
       <PackagePath>Pages\Accounting_Page\Contact_Data_New_Page.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.527</Modified>
+      <Modified>2019-05-25T15:55:15.825</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Accounting_Page\Currency_Data.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Accounting_Page\Currency_Data.xbf">
       <PackagePath>Pages\Accounting_Page\Currency_Data.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.527</Modified>
+      <Modified>2019-05-25T15:55:15.825</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Contact_Page\Customer_Group.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Contact_Page\Customer_Group.xbf">
       <PackagePath>Pages\Contact_Page\Customer_Group.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.527</Modified>
+      <Modified>2019-05-25T15:55:15.826</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Dashboard_Page\Dashboard_Page.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Dashboard_Page\Dashboard_Page.xbf">
       <PackagePath>Pages\Dashboard_Page\Dashboard_Page.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.527</Modified>
+      <Modified>2019-05-25T15:55:15.826</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Sales_Page\Sales_Invoice_Page.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Sales_Page\Sales_Invoice_Page.xbf">
       <PackagePath>Pages\Sales_Page\Sales_Invoice_Page.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.517</Modified>
+      <Modified>2019-05-25T15:55:15.818</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\ContentsStyle.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\ContentsStyle.xbf">
       <PackagePath>Styles\ContentsStyle.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.517</Modified>
+      <Modified>2019-05-25T15:55:15.824</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\DataGrid.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\DataGrid.xbf">
       <PackagePath>Styles\DataGrid.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.437</Modified>
+      <Modified>2019-05-25T15:55:15.758</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\Expander.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\Expander.xbf">
       <PackagePath>Styles\Expander.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.476</Modified>
+      <Modified>2019-05-25T15:55:15.777</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\NavStyles.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\NavStyles.xbf">
       <PackagePath>Styles\NavStyles.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.487</Modified>
+      <Modified>2019-05-25T15:55:15.788</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\ChartControl.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\ChartControl.xbf">
       <PackagePath>UserControls\ChartControl.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.527</Modified>
+      <Modified>2019-05-25T15:55:15.826</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\CollapsibleSearchBox.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\CollapsibleSearchBox.xbf">
       <PackagePath>UserControls\CollapsibleSearchBox.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.527</Modified>
+      <Modified>2019-05-25T15:55:15.826</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\Dashboard_ListControl.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\Dashboard_ListControl.xbf">
       <PackagePath>UserControls\Dashboard_ListControl.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.527</Modified>
+      <Modified>2019-05-25T15:55:15.827</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\Dashboard_ListDetailWindow.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\Dashboard_ListDetailWindow.xbf">
       <PackagePath>UserControls\Dashboard_ListDetailWindow.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.527</Modified>
+      <Modified>2019-05-25T15:55:15.827</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\Dashboard_TableControl.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\Dashboard_TableControl.xbf">
       <PackagePath>UserControls\Dashboard_TableControl.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.527</Modified>
+      <Modified>2019-05-25T15:55:15.827</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Views\CustomerDetailPage.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Views\CustomerDetailPage.xbf">
       <PackagePath>Views\CustomerDetailPage.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.527</Modified>
+      <Modified>2019-05-25T15:55:15.827</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Views\SaveChangesDialog.xbf">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Views\SaveChangesDialog.xbf">
       <PackagePath>Views\SaveChangesDialog.xbf</PackagePath>
-      <Modified>2019-05-10T20:14:11.527</Modified>
+      <Modified>2019-05-25T15:55:15.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2018-10-22T15:44:28.000</Modified>
+      <Modified>2018-10-23T07:44:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml</PackagePath>
-      <Modified>2019-03-15T13:44:56.000</Modified>
+      <Modified>2019-03-16T05:44:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\CameraPreview\CameraPreview.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\CameraPreview\CameraPreview.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\CameraPreview\CameraPreview.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ImageCropper\ImageCropper.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ImageCropper\ImageCropper.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageCropper\ImageCropper.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ImageCropper\ImageCropperThumb.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ImageCropper\ImageCropperThumb.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageCropper\ImageCropperThumb.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InfiniteCanvas\InfiniteCanvas.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InfiniteCanvas\InfiniteCanvas.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InfiniteCanvas\InfiniteCanvas.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RemoteDevicePicker\RemoteDevicePicker.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RemoteDevicePicker\RemoteDevicePicker.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RemoteDevicePicker\RemoteDevicePicker.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TabView\TabView.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TabView\TabView.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TabView\TabView.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xaml</PackagePath>
-      <Modified>2019-03-15T13:46:18.000</Modified>
+      <Modified>2019-03-16T05:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
-      <Modified>2019-02-12T13:29:10.000</Modified>
+      <Modified>2019-02-13T06:29:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\DataGrid\DataGrid.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\DataGrid\DataGrid.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\DataGrid\DataGrid.xaml</PackagePath>
-      <Modified>2019-02-12T13:31:06.000</Modified>
+      <Modified>2019-02-13T06:31:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Themes\Generic.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Themes\Generic.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Themes\Generic.xaml</PackagePath>
-      <Modified>2019-02-12T13:31:06.000</Modified>
+      <Modified>2019-02-13T06:31:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Microsoft.Toolkit.Uwp.UI.Controls.Graph.xr.xml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Microsoft.Toolkit.Uwp.UI.Controls.Graph.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Microsoft.Toolkit.Uwp.UI.Controls.Graph.xr.xml</PackagePath>
-      <Modified>2019-02-12T13:30:24.000</Modified>
+      <Modified>2019-02-13T06:30:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\AadLogin\AadLogin.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\AadLogin\AadLogin.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\AadLogin\AadLogin.xaml</PackagePath>
-      <Modified>2019-02-12T13:31:46.000</Modified>
+      <Modified>2019-02-13T06:31:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\folder.svg">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\folder.svg">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\folder.svg</PackagePath>
-      <Modified>2019-02-12T13:24:40.000</Modified>
+      <Modified>2019-02-13T06:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\genericfile.png">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\genericfile.png">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\genericfile.png</PackagePath>
-      <Modified>2019-02-12T13:24:40.000</Modified>
+      <Modified>2019-02-13T06:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\person.png">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\person.png">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\person.png</PackagePath>
-      <Modified>2019-02-12T13:24:40.000</Modified>
+      <Modified>2019-02-13T06:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\photo.png">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\photo.png">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\photo.png</PackagePath>
-      <Modified>2019-02-12T13:24:40.000</Modified>
+      <Modified>2019-02-13T06:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PeoplePicker\PeoplePicker.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PeoplePicker\PeoplePicker.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PeoplePicker\PeoplePicker.xaml</PackagePath>
-      <Modified>2019-02-12T13:31:46.000</Modified>
+      <Modified>2019-02-13T06:31:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PlannerTaskList\PlannerTaskList.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PlannerTaskList\PlannerTaskList.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PlannerTaskList\PlannerTaskList.xaml</PackagePath>
-      <Modified>2019-02-12T13:31:46.000</Modified>
+      <Modified>2019-02-13T06:31:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\PowerBIEmbedded.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\PowerBIEmbedded.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\PowerBIEmbedded.xaml</PackagePath>
-      <Modified>2019-02-12T13:31:46.000</Modified>
+      <Modified>2019-02-13T06:31:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\EmbedReportFrame.html">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\EmbedReportFrame.html">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\EmbedReportFrame.html</PackagePath>
-      <Modified>2019-02-12T13:24:40.000</Modified>
+      <Modified>2019-02-13T06:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\powerbi.min.js">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\powerbi.min.js">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\powerbi.min.js</PackagePath>
-      <Modified>2019-02-12T13:24:40.000</Modified>
+      <Modified>2019-02-13T06:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\ReportContainer.html">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\ReportContainer.html">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\ReportContainer.html</PackagePath>
-      <Modified>2019-02-12T13:24:40.000</Modified>
+      <Modified>2019-02-13T06:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\ProfileCard\ProfileCard.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\ProfileCard\ProfileCard.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\ProfileCard\ProfileCard.xaml</PackagePath>
-      <Modified>2019-02-12T13:31:46.000</Modified>
+      <Modified>2019-02-13T06:31:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\SharePointFileList\SharePointFileList.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\SharePointFileList\SharePointFileList.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\SharePointFileList\SharePointFileList.xaml</PackagePath>
-      <Modified>2019-02-12T13:31:46.000</Modified>
+      <Modified>2019-02-13T06:31:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Themes\Generic.xaml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Themes\Generic.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Themes\Generic.xaml</PackagePath>
-      <Modified>2019-02-12T13:31:46.000</Modified>
+      <Modified>2019-02-13T06:31:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-05-10T20:06:03.866</Modified>
+      <Modified>2019-05-25T10:30:32.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Core\ReyukoProject.exe">
+    <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Core\ReyukoProject.exe">
       <PackagePath>ReyukoProject.exe</PackagePath>
-      <Modified>2019-05-10T20:14:13.927</Modified>
+      <Modified>2019-05-25T15:55:18.083</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.7\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27404.2</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.7\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.7\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27404.2</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.7\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.7\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27404.2</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.7\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.7\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27505.2</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.7\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.7\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27505.2</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.7\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.7\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27505.2</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.7\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
