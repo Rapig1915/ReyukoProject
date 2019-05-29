@@ -1,6 +1,7 @@
 ﻿using ReyukoProject.Model.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -27,7 +28,7 @@ namespace ReyukoProject.Pages.Accounting_Page
         /// Gets the app-wide ViewModel instance.
         /// </summary>
         public MainViewModel ViewModel => App.ViewModel;
-
+        private ObservableCollection<CurrencyRate> Ratelist = new ObservableCollection<CurrencyRate>();
         public Currency_Data()
         {
             this.InitializeComponent();
@@ -124,6 +125,45 @@ namespace ReyukoProject.Pages.Accounting_Page
             }*/
         }
 
+        private void SearchBox_KeyUp(object sender, KeyRoutedEventArgs e)
+        {
+            if(e.Key == Windows.System.VirtualKey.Enter)
+            {
+                int nIndex = 0;
+                foreach(CurrencyViewModel md in ViewModel.Currencies)
+                {
+                    if(md.Name.Contains(txtSearchBox.GetText()))
+                    {
+                        lstCurrency.SelectedItem = md;
+                        break;
+                    }
+                }
 
+            }
+        }
+
+        private void OnItemClick(object sender, ItemClickEventArgs e)
+        {
+            // The clicked item it is the new selected contact
+            CurrencyViewModel selectedCurrency = e.ClickedItem as CurrencyViewModel;
+            
+
+
+        }
+    }
+    public class CurrencyRate
+    {
+        public String Date { get; set; }
+        public String Currency { get; set; }
+        public String Rate { get; set; }
+        
+
+        public CurrencyRate(String date, String currency,
+            String rate, Boolean isNew)
+        {
+            this.Date = date;
+            this.Currency = currency;
+            this.Rate = rate;
+        }
     }
 }

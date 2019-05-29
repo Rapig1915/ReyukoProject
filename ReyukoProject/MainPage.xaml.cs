@@ -44,8 +44,9 @@ namespace ReyukoProject
             this.InitializeComponent();
             Loaded += (sender, args) =>
             {
-                AppFrame.Navigate(typeof(Sales_Invoice_Page));
+                AppFrame.Navigate(typeof(Currency_Data));
                 NavView.SelectedItem = DashBoardMenuItem;
+
             };
         }
         private void NavigationView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)

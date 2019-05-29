@@ -5,6 +5,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:uc="using:ReyukoProject.UserControls"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -101,38 +103,94 @@
             <StackPanel Grid.Row="0" Height="20"/>
 
             <StackPanel Grid.Row="1" Orientation="Horizontal">
-                <uc:CollapsibleSearchBox Width="200"/>
+                <uc:CollapsibleSearchBox x:Name="txtSearchBox" Width="240" KeyUp="SearchBox_KeyUp"/>
             </StackPanel>
 
             <Grid Grid.Row="2" VerticalAlignment="Stretch" Margin="0,10,0,20">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="240"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <ListView Grid.Column="0" 
+                          x:Name="lstCurrency"
+                          
                           ItemsSource="{x:Bind ViewModel.Currencies, Mode=OneWay}"
                               BorderThickness="1"
                               BorderBrush="Black"
-                              HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
+                              HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" ItemClick="OnItemClick">
                     <ListView.ItemTemplate>
                         <DataTemplate x:DataType="x:String">
                             <StackPanel Orientation="Horizontal">
-                                <Ellipse Width="30">
+                                <Canvas Background="Red" Height="50">
+                                    <Ellipse Canvas.Left ="5" Canvas.Top="5" Width="36" Height="36" Fill="#323652"/>
+                                    <TextBlock Canvas.Left="10" 
+                                               Canvas.Top ="14" 
+                                               Text="{Binding Code}" 
+                                               Foreground="White"/>
+                                    <TextBlock Canvas.Left ="48" 
+                                               Canvas.Top="5" 
 
-                                </Ellipse>
-                                <TextBlock x:Name="groupList" Text="{Binding Name}" FontSize="14" Grid.Column="1" HorizontalAlignment="Stretch" Foreground="RoyalBlue" />
+                                               Text="{Binding Name}" 
+                                               Foreground="Black"
+                                               FontSize="14" 
+                                               Grid.Column="1" 
+                                               Style="{ThemeResource BaseTextBlockStyle}"
+                                               HorizontalAlignment="Stretch" />
+                                    <TextBlock Canvas.Left ="48" 
+                                               Canvas.Top="28" 
+                                               
+                                               Text="{Binding Name}" 
+                                               Foreground="Black"
+                                               FontSize="14" 
+                                               Grid.Column="1" 
+                                               Style="{ThemeResource BodyTextBlockStyle}"
+                                               HorizontalAlignment="Stretch" />
+                                </Canvas>
                             </StackPanel>
-
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-                <StackPanel Grid.Column="1" 
-                                Spacing="15"
-                                Margin="20,0,20,20" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-                    
+                <controls:DataGrid
+                    x:Name="gridCurrency" 
+                    Grid.Column="1" 
+                    Margin="10 0 10 10"
+                    Width="800"
+                    Height="600"
+                    ItemsSource="{x:Bind Ratelist}"
+                    AutoGenerateColumns="False" 
+                    AlternatingRowBackground="#d4e4f2"
+                    HeadersVisibility="Column"
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Top"  
 
-                </StackPanel>
+                >
+                    
+                    <controls:DataGrid.Columns>
+                        <controls:DataGridTextColumn 
+                            Header="Date" 
+                            Width="250"
+                            Binding="{Binding Date}" 
+
+                            FontSize="20" />
+                        <controls:DataGridTextColumn 
+                            Header="Currency" 
+                            Width="100"
+                            Binding="{Binding Currency}" 
+         
+                            FontSize="20" />
+                        <controls:DataGridTextColumn 
+                            Header="Rate"
+                            Width="100"
+                            Binding="{Binding Rate}" />
+
+                    </controls:DataGrid.Columns>
+                </controls:DataGrid>
             </Grid>
         </Grid >
     </Grid>
+    <Page.Resources>
+        <Style TargetType="controls:DataGrid">
+            <Setter Property="Background" Value="Red"/>
+        </Style>
+    </Page.Resources>
 </Page>

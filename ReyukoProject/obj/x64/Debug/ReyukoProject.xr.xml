@@ -6,6 +6,9 @@
     <RootPropertyPathName Name="Symbol" />
     <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="Code" />
+    <RootPropertyPathName Name="Rate" />
+    <RootPropertyPathName Name="Currency" />
+    <RootPropertyPathName Name="Date" />
     <RootPropertyPathName Name="Background" />
     <RootPropertyPathName Name="IsExpanded" />
     <RootPropertyPathName Name="Value" />
@@ -310,6 +313,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="CollapseWidth" />
+      <RootEvent Name="KeyUp" />
       <RootEvent Name="Loaded" />
     </RootType>
     <RootType FullName="ReyukoProject.Pages.Accounting_Page.Contact_Data_New_Page" />
@@ -324,11 +328,47 @@
       <RootMethod Name="GetBelow" />
       <RootMethod Name="SetBelow" />
     </RootType>
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="AutoGenerateColumns" />
+      <RootProperty Name="AlternatingRowBackground" />
+      <RootProperty Name="HeadersVisibility" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Columns" />
+      <RootProperty Name="DragIndicatorStyle" />
+      <RootProperty Name="DropLocationIndicatorStyle" />
+      <RootProperty Name="HorizontalGridLinesBrush" />
+      <RootProperty Name="VerticalGridLinesBrush" />
+    </RootType>
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridTextColumn">
+      <RootProperty Name="Header" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Binding" />
+      <RootProperty Name="FontSize" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootMethod Name="GetLeft" />
+      <RootMethod Name="SetLeft" />
+      <RootMethod Name="GetTop" />
+      <RootMethod Name="SetTop" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
       <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Fill" />
       <RootProperty Name="Name" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
       <RootProperty Name="Background" />
@@ -382,12 +422,6 @@
     </RootType>
     <RootType FullName="ReyukoProject.Pages.Sales_Page.Sales_Invoice_Page" />
     <RootType FullName="System.String" />
-    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
-      <RootProperty Name="DragIndicatorStyle" />
-      <RootProperty Name="DropLocationIndicatorStyle" />
-      <RootProperty Name="HorizontalGridLinesBrush" />
-      <RootProperty Name="VerticalGridLinesBrush" />
-    </RootType>
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridCell" />
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.Primitives.DataGridColumnHeader">
       <RootProperty Name="SeparatorBrush" />
@@ -534,12 +568,6 @@
       <RootProperty Name="SelectedPointerOverBackground" />
       <RootProperty Name="SelectedPressedBackground" />
       <RootProperty Name="SelectionCheckMarkVisualEnabled" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
-      <RootProperty Name="Name" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.AutoSuggestBox">
       <RootProperty Name="PlaceholderText" />

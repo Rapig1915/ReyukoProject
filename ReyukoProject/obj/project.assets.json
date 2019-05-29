@@ -26342,7 +26342,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Users\\shunz\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
@@ -26351,7 +26351,7 @@
       "projectUniqueName": "F:\\UWP\\ReyukoProject\\ReyukoProject\\ReyukoProject.csproj",
       "projectName": "ReyukoProject",
       "projectPath": "F:\\UWP\\ReyukoProject\\ReyukoProject\\ReyukoProject.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\shunz\\.nuget\\packages\\",
       "outputPath": "F:\\UWP\\ReyukoProject\\ReyukoProject\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
@@ -26359,7 +26359,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shunz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

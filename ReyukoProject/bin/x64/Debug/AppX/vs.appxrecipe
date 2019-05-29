@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-2VC3LE2</Machine>
-    <WindowsUser>USER</WindowsUser>
+    <Machine>DESKTOP-NTP4NTV</Machine>
+    <WindowsUser>shunz</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>5097E4714042785929DB2AB1F1A1C58BA360F0A9DCEBF770741C506A84D1E43D</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>51F259BF28E25988F337F170354CE001529A12BA4439C2276E9187A845F73D04</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>aa7e4f72-f6f7-4710-996f-2f9b08be4919_1.0.0.0_x64__t600xgmvk2pe2</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>aa7e4f72-f6f7-4710-996f-2f9b08be4919_t600xgmvk2pe2!App</RegisteredUserModeAppID>
     <RegisteredPackageID>aa7e4f72-f6f7-4710-996f-2f9b08be4919</RegisteredPackageID>
@@ -30,121 +30,121 @@
     <AppXManifest Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-25T15:57:30.970</Modified>
+      <Modified>2019-05-29T18:57:53.172</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\ReyukoProject.exe">
       <PackagePath>entrypoint\ReyukoProject.exe</PackagePath>
-      <Modified>2019-05-25T15:57:28.923</Modified>
+      <Modified>2019-05-29T18:57:48.702</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
-      <Modified>2018-10-06T06:30:08.000</Modified>
+      <Modified>2018-10-05T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\colorcode.uwp\2.0.6\lib\uap10.0\ColorCode.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\colorcode.uwp\2.0.6\lib\uap10.0\ColorCode.UWP.dll">
       <PackagePath>ColorCode.UWP.dll</PackagePath>
-      <Modified>2018-10-06T06:30:16.000</Modified>
+      <Modified>2018-10-05T15:30:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.graph\1.8.1\lib\netstandard1.1\Microsoft.Graph.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.graph\1.8.1\lib\netstandard1.1\Microsoft.Graph.dll">
       <PackagePath>Microsoft.Graph.dll</PackagePath>
-      <Modified>2018-03-26T18:13:56.000</Modified>
+      <Modified>2018-03-26T03:13:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.graph.core\1.8.1\lib\netstandard1.1\Microsoft.Graph.Core.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.graph.core\1.8.1\lib\netstandard1.1\Microsoft.Graph.Core.dll">
       <PackagePath>Microsoft.Graph.Core.dll</PackagePath>
-      <Modified>2018-03-23T21:10:40.000</Modified>
+      <Modified>2018-03-23T06:10:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.identity.client\2.7.0\lib\uap10.0\Microsoft.Identity.Client.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.identity.client\2.7.0\lib\uap10.0\Microsoft.Identity.Client.dll">
       <PackagePath>Microsoft.Identity.Client.dll</PackagePath>
-      <Modified>2019-01-12T09:17:26.000</Modified>
+      <Modified>2019-01-11T17:17:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.13.7\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.13.7\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll">
       <PackagePath>Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll</PackagePath>
-      <Modified>2016-11-01T23:39:34.000</Modified>
+      <Modified>2016-11-01T08:39:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.13.7\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.13.7\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
       <PackagePath>Microsoft.IdentityModel.Clients.ActiveDirectory.dll</PackagePath>
-      <Modified>2016-11-01T23:39:34.000</Modified>
+      <Modified>2016-11-01T08:39:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.powerbi.api\2.0.12\lib\portable-net45+win+wpa81+MonoAndroid10+MonoTouch10+xamarinios10+xamarinmac20\Microsoft.PowerBI.Api.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.powerbi.api\2.0.12\lib\portable-net45+win+wpa81+MonoAndroid10+MonoTouch10+xamarinios10+xamarinmac20\Microsoft.PowerBI.Api.dll">
       <PackagePath>Microsoft.PowerBI.Api.dll</PackagePath>
-      <Modified>2018-04-24T21:39:00.000</Modified>
+      <Modified>2018-04-24T06:39:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.rest.clientruntime\2.0.1\lib\portable-net45+win+wpa81\Microsoft.Rest.ClientRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.rest.clientruntime\2.0.1\lib\portable-net45+win+wpa81\Microsoft.Rest.ClientRuntime.dll">
       <PackagePath>Microsoft.Rest.ClientRuntime.dll</PackagePath>
-      <Modified>2016-02-03T21:37:04.000</Modified>
+      <Modified>2016-02-03T05:37:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit\5.1.1\lib\netstandard2.0\Microsoft.Toolkit.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit\5.1.1\lib\netstandard2.0\Microsoft.Toolkit.dll">
       <PackagePath>Microsoft.Toolkit.dll</PackagePath>
-      <Modified>2019-03-16T05:15:26.000</Modified>
+      <Modified>2019-03-15T14:15:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.parsers\5.1.1\lib\netstandard2.0\Microsoft.Toolkit.Parsers.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.parsers\5.1.1\lib\netstandard2.0\Microsoft.Toolkit.Parsers.dll">
       <PackagePath>Microsoft.Toolkit.Parsers.dll</PackagePath>
-      <Modified>2019-03-16T05:15:28.000</Modified>
+      <Modified>2019-03-15T14:15:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.services\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Services.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.services\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Services.dll">
       <PackagePath>Microsoft.Toolkit.Services.dll</PackagePath>
-      <Modified>2019-02-13T06:34:04.000</Modified>
+      <Modified>2019-02-12T14:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
-      <Modified>2019-03-16T05:15:34.000</Modified>
+      <Modified>2019-03-15T14:15:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
-      <Modified>2019-03-16T05:15:54.000</Modified>
+      <Modified>2019-03-15T14:15:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.animations\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Animations.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.animations\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Animations.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Animations.dll</PackagePath>
-      <Modified>2019-03-16T05:15:56.000</Modified>
+      <Modified>2019-03-15T14:15:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.dll</PackagePath>
-      <Modified>2019-03-16T05:49:22.000</Modified>
+      <Modified>2019-03-15T14:49:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
-      <Modified>2019-02-13T06:34:32.000</Modified>
+      <Modified>2019-02-12T14:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph.dll</PackagePath>
-      <Modified>2019-02-13T06:34:34.000</Modified>
+      <Modified>2019-02-12T14:34:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
-      <Modified>2016-02-22T21:59:50.000</Modified>
+      <Modified>2016-02-22T05:59:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
       <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
-      <Modified>2016-02-22T21:59:50.000</Modified>
+      <Modified>2016-02-22T05:59:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2017-06-18T20:57:10.000</Modified>
+      <Modified>2017-06-18T05:57:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\robmikh.compositionsurfacefactory\0.7.3\runtimes\win10-x64\native\Robmikh.CompositionSurfaceFactory.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\robmikh.compositionsurfacefactory\0.7.3\runtimes\win10-x64\native\Robmikh.CompositionSurfaceFactory.dll">
       <PackagePath>Robmikh.CompositionSurfaceFactory.dll</PackagePath>
-      <Modified>2017-09-28T02:20:54.000</Modified>
+      <Modified>2017-09-27T11:20:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2019-03-13T05:23:24.000</Modified>
+      <Modified>2019-03-12T14:23:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\win2d.uwp\1.21.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\win2d.uwp\1.21.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
-      <Modified>2017-06-26T10:01:44.000</Modified>
+      <Modified>2017-06-25T19:01:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\robmikh.compositionsurfacefactory\0.7.3\lib\uap10.0\Robmikh.CompositionSurfaceFactory.winmd">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\robmikh.compositionsurfacefactory\0.7.3\lib\uap10.0\Robmikh.CompositionSurfaceFactory.winmd">
       <PackagePath>Robmikh.CompositionSurfaceFactory.winmd</PackagePath>
-      <Modified>2017-09-28T02:20:52.000</Modified>
+      <Modified>2017-09-27T11:20:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\win2d.uwp\1.21.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\win2d.uwp\1.21.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
-      <Modified>2017-06-26T10:01:44.000</Modified>
+      <Modified>2017-06-25T19:01:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2018-10-23T08:33:40.000</Modified>
+      <Modified>2018-10-22T17:33:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Assets\Icons\accounting_drawer.png">
       <PackagePath>Assets\Icons\accounting_drawer.png</PackagePath>
@@ -569,345 +569,345 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-26T03:56:15.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\genericfile.png">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\genericfile.png">
       <PackagePath>genericfile.png</PackagePath>
-      <Modified>2019-02-13T06:24:40.000</Modified>
+      <Modified>2019-02-12T14:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\person.png">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\person.png">
       <PackagePath>person.png</PackagePath>
-      <Modified>2019-02-13T06:24:40.000</Modified>
+      <Modified>2019-02-12T14:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\photo.png">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\photo.png">
       <PackagePath>photo.png</PackagePath>
-      <Modified>2019-02-13T06:24:40.000</Modified>
+      <Modified>2019-02-12T14:24:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2019-04-30T03:52:19.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\folder.svg">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\Assets\folder.svg">
       <PackagePath>folder.svg</PackagePath>
-      <Modified>2019-02-13T06:24:40.000</Modified>
+      <Modified>2019-02-12T14:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\PowerBIEmbedded\Embed\EmbedReportFrame.html">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\PowerBIEmbedded\Embed\EmbedReportFrame.html">
       <PackagePath>EmbedReportFrame.html</PackagePath>
-      <Modified>2019-02-13T06:24:40.000</Modified>
+      <Modified>2019-02-12T14:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\PowerBIEmbedded\Embed\ReportContainer.html">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\PowerBIEmbedded\Embed\ReportContainer.html">
       <PackagePath>ReportContainer.html</PackagePath>
-      <Modified>2019-02-13T06:24:40.000</Modified>
+      <Modified>2019-02-12T14:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\PowerBIEmbedded\Embed\powerbi.min.js">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\contentFiles\any\uap10.0.16299\PowerBIEmbedded\Embed\powerbi.min.js">
       <PackagePath>powerbi.min.js</PackagePath>
-      <Modified>2019-02-13T06:24:40.000</Modified>
+      <Modified>2019-02-12T14:24:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\ReyukoProject.xr.xml">
       <PackagePath>ReyukoProject.xr.xml</PackagePath>
-      <Modified>2019-05-10T20:06:01.000</Modified>
+      <Modified>2019-05-28T16:19:11.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.650</Modified>
+      <Modified>2019-05-29T18:57:48.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.660</Modified>
+      <Modified>2019-05-29T18:57:48.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Add_Page.xbf">
       <PackagePath>Pages\Accounting_Page\Contact_Data_New_Add_Page.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.681</Modified>
+      <Modified>2019-05-29T18:57:48.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Accounting_Page\Contact_Data_New_Page.xbf">
       <PackagePath>Pages\Accounting_Page\Contact_Data_New_Page.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.681</Modified>
+      <Modified>2019-05-29T18:57:48.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Accounting_Page\Currency_Data.xbf">
       <PackagePath>Pages\Accounting_Page\Currency_Data.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.681</Modified>
+      <Modified>2019-05-29T18:57:48.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Contact_Page\Customer_Group.xbf">
       <PackagePath>Pages\Contact_Page\Customer_Group.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.681</Modified>
+      <Modified>2019-05-29T18:57:48.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Dashboard_Page\Dashboard_Page.xbf">
       <PackagePath>Pages\Dashboard_Page\Dashboard_Page.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.681</Modified>
+      <Modified>2019-05-29T18:57:48.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Pages\Sales_Page\Sales_Invoice_Page.xbf">
       <PackagePath>Pages\Sales_Page\Sales_Invoice_Page.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.674</Modified>
+      <Modified>2019-05-29T18:57:48.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\ContentsStyle.xbf">
       <PackagePath>Styles\ContentsStyle.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.679</Modified>
+      <Modified>2019-05-29T18:57:48.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\DataGrid.xbf">
       <PackagePath>Styles\DataGrid.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.614</Modified>
+      <Modified>2019-05-29T18:57:48.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\Expander.xbf">
       <PackagePath>Styles\Expander.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.633</Modified>
+      <Modified>2019-05-29T18:57:48.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Styles\NavStyles.xbf">
       <PackagePath>Styles\NavStyles.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.644</Modified>
+      <Modified>2019-05-29T18:57:48.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\ChartControl.xbf">
       <PackagePath>UserControls\ChartControl.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.682</Modified>
+      <Modified>2019-05-29T18:57:48.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\CollapsibleSearchBox.xbf">
       <PackagePath>UserControls\CollapsibleSearchBox.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.682</Modified>
+      <Modified>2019-05-29T18:57:48.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\Dashboard_ListControl.xbf">
       <PackagePath>UserControls\Dashboard_ListControl.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.682</Modified>
+      <Modified>2019-05-29T18:57:48.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\Dashboard_ListDetailWindow.xbf">
       <PackagePath>UserControls\Dashboard_ListDetailWindow.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.682</Modified>
+      <Modified>2019-05-29T18:57:48.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\UserControls\Dashboard_TableControl.xbf">
       <PackagePath>UserControls\Dashboard_TableControl.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.682</Modified>
+      <Modified>2019-05-29T18:57:48.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Views\CustomerDetailPage.xbf">
       <PackagePath>Views\CustomerDetailPage.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.682</Modified>
+      <Modified>2019-05-29T18:57:48.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Views\SaveChangesDialog.xbf">
       <PackagePath>Views\SaveChangesDialog.xbf</PackagePath>
-      <Modified>2019-05-25T15:57:28.682</Modified>
+      <Modified>2019-05-29T18:57:48.386</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2018-10-23T07:44:28.000</Modified>
+      <Modified>2018-10-22T16:44:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml</PackagePath>
-      <Modified>2019-03-16T05:44:56.000</Modified>
+      <Modified>2019-03-15T14:44:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\CameraPreview\CameraPreview.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\CameraPreview\CameraPreview.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\CameraPreview\CameraPreview.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ImageCropper\ImageCropper.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ImageCropper\ImageCropper.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageCropper\ImageCropper.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ImageCropper\ImageCropperThumb.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ImageCropper\ImageCropperThumb.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageCropper\ImageCropperThumb.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InfiniteCanvas\InfiniteCanvas.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\InfiniteCanvas\InfiniteCanvas.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InfiniteCanvas\InfiniteCanvas.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RemoteDevicePicker\RemoteDevicePicker.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RemoteDevicePicker\RemoteDevicePicker.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RemoteDevicePicker\RemoteDevicePicker.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TabView\TabView.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TabView\TabView.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TabView\TabView.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xaml</PackagePath>
-      <Modified>2019-03-16T05:46:18.000</Modified>
+      <Modified>2019-03-15T14:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
-      <Modified>2019-02-13T06:29:10.000</Modified>
+      <Modified>2019-02-12T14:29:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\DataGrid\DataGrid.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\DataGrid\DataGrid.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\DataGrid\DataGrid.xaml</PackagePath>
-      <Modified>2019-02-13T06:31:06.000</Modified>
+      <Modified>2019-02-12T14:31:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Themes\Generic.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Themes\Generic.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Themes\Generic.xaml</PackagePath>
-      <Modified>2019-02-13T06:31:06.000</Modified>
+      <Modified>2019-02-12T14:31:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Microsoft.Toolkit.Uwp.UI.Controls.Graph.xr.xml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Microsoft.Toolkit.Uwp.UI.Controls.Graph.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Microsoft.Toolkit.Uwp.UI.Controls.Graph.xr.xml</PackagePath>
-      <Modified>2019-02-13T06:30:24.000</Modified>
+      <Modified>2019-02-12T14:30:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\AadLogin\AadLogin.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\AadLogin\AadLogin.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\AadLogin\AadLogin.xaml</PackagePath>
-      <Modified>2019-02-13T06:31:46.000</Modified>
+      <Modified>2019-02-12T14:31:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\folder.svg">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\folder.svg">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\folder.svg</PackagePath>
-      <Modified>2019-02-13T06:24:40.000</Modified>
+      <Modified>2019-02-12T14:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\genericfile.png">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\genericfile.png">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\genericfile.png</PackagePath>
-      <Modified>2019-02-13T06:24:40.000</Modified>
+      <Modified>2019-02-12T14:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\person.png">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\person.png">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\person.png</PackagePath>
-      <Modified>2019-02-13T06:24:40.000</Modified>
+      <Modified>2019-02-12T14:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\photo.png">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\photo.png">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Assets\photo.png</PackagePath>
-      <Modified>2019-02-13T06:24:40.000</Modified>
+      <Modified>2019-02-12T14:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PeoplePicker\PeoplePicker.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PeoplePicker\PeoplePicker.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PeoplePicker\PeoplePicker.xaml</PackagePath>
-      <Modified>2019-02-13T06:31:46.000</Modified>
+      <Modified>2019-02-12T14:31:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PlannerTaskList\PlannerTaskList.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PlannerTaskList\PlannerTaskList.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PlannerTaskList\PlannerTaskList.xaml</PackagePath>
-      <Modified>2019-02-13T06:31:46.000</Modified>
+      <Modified>2019-02-12T14:31:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\PowerBIEmbedded.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\PowerBIEmbedded.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\PowerBIEmbedded.xaml</PackagePath>
-      <Modified>2019-02-13T06:31:46.000</Modified>
+      <Modified>2019-02-12T14:31:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\EmbedReportFrame.html">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\EmbedReportFrame.html">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\EmbedReportFrame.html</PackagePath>
-      <Modified>2019-02-13T06:24:40.000</Modified>
+      <Modified>2019-02-12T14:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\powerbi.min.js">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\powerbi.min.js">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\powerbi.min.js</PackagePath>
-      <Modified>2019-02-13T06:24:40.000</Modified>
+      <Modified>2019-02-12T14:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\ReportContainer.html">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\ReportContainer.html">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\PowerBIEmbedded\Embed\ReportContainer.html</PackagePath>
-      <Modified>2019-02-13T06:24:40.000</Modified>
+      <Modified>2019-02-12T14:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\ProfileCard\ProfileCard.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\ProfileCard\ProfileCard.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\ProfileCard\ProfileCard.xaml</PackagePath>
-      <Modified>2019-02-13T06:31:46.000</Modified>
+      <Modified>2019-02-12T14:31:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\SharePointFileList\SharePointFileList.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\SharePointFileList\SharePointFileList.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\SharePointFileList\SharePointFileList.xaml</PackagePath>
-      <Modified>2019-02-13T06:31:46.000</Modified>
+      <Modified>2019-02-12T14:31:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Themes\Generic.xaml">
+    <AppxPackagedFile Include="C:\Users\shunz\.nuget\packages\microsoft.toolkit.uwp.ui.controls.graph\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.Graph\Themes\Generic.xaml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Graph\Themes\Generic.xaml</PackagePath>
-      <Modified>2019-02-13T06:31:46.000</Modified>
+      <Modified>2019-02-12T14:31:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-05-25T10:30:32.237</Modified>
+      <Modified>2019-05-28T16:21:05.710</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\UWP\ReyukoProject\ReyukoProject\bin\x64\Debug\Core\ReyukoProject.exe">
       <PackagePath>ReyukoProject.exe</PackagePath>
-      <Modified>2019-05-25T15:57:30.967</Modified>
+      <Modified>2019-05-29T18:57:53.167</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
