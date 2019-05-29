@@ -20,7 +20,7 @@ namespace ReyukoProject.Model.ViewModels
         /// <summary>
         /// Load DBt
         /// </summary>
-        public void UseSqlite()
+        public void LoadCurrencyModel()
         {
             const string sqlCmd = "select * from dbo.currency";
             try
@@ -62,7 +62,7 @@ namespace ReyukoProject.Model.ViewModels
                                     {
                                         curreny.Exchange = reader.GetString(6);
                                     }
-                                    
+
                                     Currencies.Add(new CurrencyViewModel(curreny));
                                 }
                             }
@@ -83,7 +83,7 @@ namespace ReyukoProject.Model.ViewModels
         /// </summary>
         public MainViewModel()
         {
-            UseSqlite();
+            LoadCurrencyModel();
             //Task.Run(GetCustomerGroupListAsync);
             //Task.Run(GetCurrencyGroupListAsync);
         }
@@ -165,7 +165,7 @@ namespace ReyukoProject.Model.ViewModels
         /// </summary>
         public async Task GetCurrencyGroupListAsync()
         {
-            UseSqlite();
+   
             /*await DispatcherHelper.ExecuteOnUIThreadAsync(() => IsLoading = true);
 
             var currency = await App.Repository.Currency.GetAsync();

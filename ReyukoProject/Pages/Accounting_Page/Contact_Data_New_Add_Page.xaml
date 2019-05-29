@@ -44,7 +44,7 @@
                 <TextBlock Text="Date"/>
                 <StackPanel Width="120"/>
                 <TextBlock Text=":"/>
-                <CalendarDatePicker Width="210"/>
+                <CalendarDatePicker x:Name="txtDate" Width="210"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal">

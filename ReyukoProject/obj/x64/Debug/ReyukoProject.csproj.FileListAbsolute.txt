@@ -351,10 +351,7 @@ F:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\Microsoft.Toolkit.Uwp.UI.Contro
 F:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\Microsoft.Xaml.Interactions.pri.xml
 F:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\Microsoft.Xaml.Interactivity.pri.xml
 F:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\ProjectArchitectures.txt
-F:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636340681040000000.json
-F:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758804200000000.json
-F:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\.winmd_cache\$Robmikh.CompositionSurfaceFactory.winmd_636421620520000000.json
-F:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\ReyukoProject.csprojAssemblyReference.cache
 F:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636340141040000000.json
 F:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758264200000000.json
 F:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\.winmd_cache\$Robmikh.CompositionSurfaceFactory.winmd_636421080520000000.json
+F:\UWP\ReyukoProject\ReyukoProject\obj\x64\Debug\ReyukoProject.csprojAssemblyReference.cache

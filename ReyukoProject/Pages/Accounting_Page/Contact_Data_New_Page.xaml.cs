@@ -49,11 +49,14 @@ namespace ReyukoProject.Pages.Accounting_Page
 
         private void Add_Clicked(object sender, RoutedEventArgs e)
         {
-            
+            m_parent.Hide();
+            CurrencyViewModel selectedCurrency = listview.SelectedItem as CurrencyViewModel;
+            string strCurrency = selectedCurrency.Name;
+            ShowAddPopup(strCurrency);
         }
-        private async System.Threading.Tasks.Task ShowPopup()
+        private async System.Threading.Tasks.Task ShowAddPopup(string currencyName)
         {
-            Contact_Data_New_Add_Page.ShowPopup("Your content here");
+            Contact_Data_New_Add_Page.ShowPopup(currencyName);
         }
     }
 }

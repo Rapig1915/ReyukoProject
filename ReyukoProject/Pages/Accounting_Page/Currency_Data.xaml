@@ -115,9 +115,13 @@
                           x:Name="lstCurrency"
                           
                           ItemsSource="{x:Bind ViewModel.Currencies, Mode=OneWay}"
-                              BorderThickness="1"
-                              BorderBrush="Black"
-                              HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" ItemClick="OnItemClick">
+                          BorderThickness="1"
+                          BorderBrush="Black"
+                          HorizontalAlignment="Stretch" 
+                          Margin="0,0,0,0" 
+                          VerticalAlignment="Stretch" 
+                          IsItemClickEnabled="True"
+                          ItemClick="OnItemClick">
                     <ListView.ItemTemplate>
                         <DataTemplate x:DataType="x:String">
                             <StackPanel Orientation="Horizontal">
@@ -168,13 +172,13 @@
                     <controls:DataGrid.Columns>
                         <controls:DataGridTextColumn 
                             Header="Date" 
-                            Width="250"
+                            Width="140"
                             Binding="{Binding Date}" 
 
                             FontSize="20" />
                         <controls:DataGridTextColumn 
                             Header="Currency" 
-                            Width="100"
+                            Width="230"
                             Binding="{Binding Currency}" 
          
                             FontSize="20" />
@@ -190,7 +194,7 @@
     </Grid>
     <Page.Resources>
         <Style TargetType="controls:DataGrid">
-            <Setter Property="Background" Value="Red"/>
+            
         </Style>
     </Page.Resources>
 </Page>

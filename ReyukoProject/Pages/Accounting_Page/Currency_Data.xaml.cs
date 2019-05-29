@@ -129,7 +129,6 @@ namespace ReyukoProject.Pages.Accounting_Page
         {
             if(e.Key == Windows.System.VirtualKey.Enter)
             {
-                int nIndex = 0;
                 foreach(CurrencyViewModel md in ViewModel.Currencies)
                 {
                     if(md.Name.Contains(txtSearchBox.GetText()))
@@ -146,9 +145,9 @@ namespace ReyukoProject.Pages.Accounting_Page
         {
             // The clicked item it is the new selected contact
             CurrencyViewModel selectedCurrency = e.ClickedItem as CurrencyViewModel;
-            
-
-
+            Ratelist.Clear();
+            Ratelist.Add(new CurrencyRate("2019-5-12", selectedCurrency.Name, "2.34"));
+            gridCurrency.ItemsSource = Ratelist;
         }
     }
     public class CurrencyRate
@@ -159,7 +158,7 @@ namespace ReyukoProject.Pages.Accounting_Page
         
 
         public CurrencyRate(String date, String currency,
-            String rate, Boolean isNew)
+            String rate)
         {
             this.Date = date;
             this.Currency = currency;
