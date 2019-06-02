@@ -49,8 +49,11 @@ namespace ReyukoProject.Pages.Accounting_Page
 
         private void Add_Clicked(object sender, RoutedEventArgs e)
         {
-            m_parent.Hide();
             CurrencyViewModel selectedCurrency = listview.SelectedItem as CurrencyViewModel;
+            if (selectedCurrency == null)
+                return;
+            m_parent.Hide();
+            
             string strCurrency = selectedCurrency.Name;
             ShowAddPopup(strCurrency);
         }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Toolkit.Uwp.Helpers;
+using ReyukoProject.Database;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -12,11 +13,8 @@ namespace ReyukoProject.Model.ViewModels
 {
     public class MainViewModel : BindableBase
     {
-        public static SqlConnection MyDB { get; set; }
-        // Connection string for using Windows Authentication.
-        //public string connectionString = @"Data Source=localhost;Initial Catalog=Reyuko_DB;User ID=sa;Password=sa";
-        //public string connectionString = @"Data Source=192.168.1.108\SQLEXPRESS;Initial Catalog=Reyuko_DB;User ID=admin;Password=admin";
-        public string connectionString = @"Data Source=192.168.1.108\SQLEXPRESS;Initial Catalog=Reyuko_DB;User ID=admin;Password=admin";
+        
+
         /// <summary>
         /// Load DBt
         /// </summary>
@@ -25,46 +23,41 @@ namespace ReyukoProject.Model.ViewModels
             const string sqlCmd = "select * from dbo.currency";
             try
             {
-                using (MyDB = new SqlConnection(connectionString))
+                if (App.m_DB.GetDB().State == System.Data.ConnectionState.Open)
                 {
-
-                    MyDB.Open();
-                    if (MyDB.State == System.Data.ConnectionState.Open)
+                    using (SqlCommand cmd = new SqlCommand(sqlCmd, App.m_DB.GetDB()))
                     {
-                        using (SqlCommand cmd = new SqlCommand(sqlCmd, MyDB))
+                        using (SqlDataReader reader = cmd.ExecuteReader())
                         {
-                            using (SqlDataReader reader = cmd.ExecuteReader())
+                            while (reader.Read())
                             {
-                                while (reader.Read())
+                                Currency curreny = new Currency();
+                                if (!reader.IsDBNull(1))
                                 {
-                                    Currency curreny = new Currency();
-                                    if (!reader.IsDBNull(1))
-                                    {
-                                        curreny.Active_Check = reader.GetInt32(1);
-                                    }
-                                    if (!reader.IsDBNull(2))
-                                    {
-                                        curreny.Name = reader.GetString(2);
-                                    }
-                                    if (!reader.IsDBNull(3))
-                                    {
-                                        curreny.Code = reader.GetString(3);
-                                    }
-                                    if (!reader.IsDBNull(4))
-                                    {
-                                        curreny.Symbol = reader.GetString(4);
-                                    }
-                                    if (!reader.IsDBNull(5))
-                                    {
-                                        curreny.DateUpdate = reader.GetString(5);
-                                    }
-                                    if (!reader.IsDBNull(6))
-                                    {
-                                        curreny.Exchange = reader.GetString(6);
-                                    }
-
-                                    Currencies.Add(new CurrencyViewModel(curreny));
+                                    curreny.Active_Check = reader.GetInt32(1);
                                 }
+                                if (!reader.IsDBNull(2))
+                                {
+                                    curreny.Name = reader.GetString(2);
+                                }
+                                if (!reader.IsDBNull(3))
+                                {
+                                    curreny.Code = reader.GetString(3);
+                                }
+                                if (!reader.IsDBNull(4))
+                                {
+                                    curreny.Symbol = reader.GetString(4);
+                                }
+                                if (!reader.IsDBNull(5))
+                                {
+                                    curreny.DateUpdate = reader.GetString(5);
+                                }
+                                if (!reader.IsDBNull(6))
+                                {
+                                    curreny.Exchange = reader.GetString(6);
+                                }
+
+                                Currencies.Add(new CurrencyViewModel(curreny));
                             }
                         }
                     }
@@ -84,6 +77,7 @@ namespace ReyukoProject.Model.ViewModels
         public MainViewModel()
         {
             LoadCurrencyModel();
+            
             //Task.Run(GetCustomerGroupListAsync);
             //Task.Run(GetCurrencyGroupListAsync);
         }

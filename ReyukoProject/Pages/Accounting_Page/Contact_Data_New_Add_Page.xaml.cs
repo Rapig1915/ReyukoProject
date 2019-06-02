@@ -46,7 +46,7 @@ namespace ReyukoProject.Pages.Accounting_Page
                 showMessageBoxAsync();
                 return;
             }
-            DBEngine.AddCurrencyRating(txtCurrency.Text, txtDate.Date.ToString(), txtRate.Text);
+            DBEngine.AddCurrencyRating(txtCurrency.Text, txtDate.Date.Value.DateTime.ToString("yyyy-MM-dd"), txtRate.Text);
             m_parent.Hide();
         }
 

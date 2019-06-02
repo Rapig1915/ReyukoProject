@@ -1,4 +1,5 @@
-﻿using ReyukoProject.Helpers;
+﻿using ReyukoProject.Database;
+using ReyukoProject.Helpers;
 using ReyukoProject.Model.ViewModels;
 using ReyukoProject.Repository;
 using System;
@@ -20,15 +21,8 @@ namespace ReyukoProject
     /// </summary>
     sealed partial class App : Application
     {
-
-        // This is an example connection string for using SQL Server Authentication.
-        // private string connectionString =
-        //     @"Data Source=YourServerName\YourInstanceName;Initial Catalog=DatabaseName; User Id=XXXXX; Password=XXXXX";
-
-
-
+        public static DBEngine m_DB { get; } = new DBEngine();
         public static MainViewModel ViewModel { get; } = new MainViewModel();
-
         /// <summary>
         /// Pipeline for interacting with backend service or database.
         /// </summary>
